@@ -14,7 +14,11 @@ import net.minecraft.util.Identifier;
 
 public class ModBlocks {
 
-    public static final Block TIN_BLOCK = registerBlock("tin_block", new Block(AbstractBlock.Settings.create().strength(3f).requiresTool().sounds(BlockSoundGroup.METAL)));
+    public static final Block TIN_BLOCK = registerBlock("tin_block", new Block(
+            AbstractBlock.Settings.create()
+                    .strength(3f, 4f)
+                    .requiresTool()
+                    .sounds(BlockSoundGroup.METAL)));
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);
