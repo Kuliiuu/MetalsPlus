@@ -1,4 +1,6 @@
 {
   "item.metalsplus.copper_nugget": "Copper Nugget",
-  "item.metalsplus.tin_nugget": "Tin Nugget"
+  "item.metalsplus.tin_nugget": "Tin Nugget",
+
+  "block.metalsplus.tin_block": "Tin Block"
 }
