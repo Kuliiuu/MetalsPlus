@@ -31,6 +31,10 @@ public class ModItemGroups {
             FabricItemGroup.builder().icon(() -> new ItemStack(ModBlocks.TIN_BLOCK))
                     .displayName(Text.translatable("itemgroup.metalsplus.metal_plus_blocks"))
                     .entries((displayContext, entries) -> {
+                        entries.add(ModBlocks.BRONZE_BLOCK);
+                        entries.add(ModBlocks.RAW_TIN_BLOCK);
+                        entries.add(ModBlocks.DEEPSLATE_TIN_ORE);
+                        entries.add(ModBlocks.TIN_ORE);
                         entries.add(ModBlocks.TIN_BLOCK);
                     }).build());
 

@@ -19,6 +19,26 @@ public class ModBlocks {
                     .strength(3f, 4f)
                     .requiresTool()
                     .sounds(BlockSoundGroup.METAL)));
+    public static final Block BRONZE_BLOCK = registerBlock("bronze_block", new Block(
+            AbstractBlock.Settings.create()
+                    .strength(4f, 5f)
+                    .requiresTool()
+                    .sounds(BlockSoundGroup.METAL)));
+    public static final Block DEEPSLATE_TIN_ORE = registerBlock("deepslate_tin_ore", new Block(
+            AbstractBlock.Settings.create()
+                    .strength(3f, 3f)
+                    .requiresTool()
+                    .sounds(BlockSoundGroup.DEEPSLATE)));
+    public static final Block RAW_TIN_BLOCK = registerBlock("raw_tin_block", new Block(
+            AbstractBlock.Settings.create()
+                    .strength(3.5f, 4f)
+                    .requiresTool()
+                    .sounds(BlockSoundGroup.STONE)));
+    public static final Block TIN_ORE = registerBlock("tin_ore", new Block(
+            AbstractBlock.Settings.create()
+                    .strength(2.5f, 2.5f)
+                    .requiresTool()
+                    .sounds(BlockSoundGroup.STONE)));
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);
@@ -31,8 +51,15 @@ public class ModBlocks {
 
     public static void registerModBlocks(){
         MetalsPlus.LOGGER.info("Registering Mod Blocks - " + MetalsPlus.MOD_ID);
+        /*
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS).register(entries -> {
             entries.add(ModBlocks.TIN_BLOCK);
+            entries.add(ModBlocks.BRONZE_BLOCK);
+            entries.add(ModBlocks.RAW_TIN_BLOCK);
+            entries.add(ModBlocks.DEEPSLATE_TIN_ORE);
+            entries.add(ModBlocks.TIN_ORE);
+
         });
+         */
     }
 }

@@ -10,6 +10,10 @@
   "item.metalsplus.tin_dust": "Tin Dust",
 
   "block.metalsplus.tin_block": "Block of Tin",
+  "block.metalsplus.bronze_block": "Block of Bronze",
+  "block.metalsplus.deepslate_tin_ore": "Deepslate Tin Ore",
+  "block.metalsplus.raw_tin_block": "Block of Raw Tin",
+  "block.metalsplus.tin_ore": "Tin Ore",
 
   "itemgroup.metalsplus.metal_plus_items": "MetalPlus Items",
   "itemgroup.metalsplus.metal_plus_blocks": "MetalPlus Blocks"

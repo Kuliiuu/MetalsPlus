@@ -10,7 +10,12 @@
   "item.metalsplus.tin_dust": "Cínový prach",
 
   "block.metalsplus.tin_block": "Blok cínu",
+  "block.metalsplus.bronze_block": "Blok bronzu",
+  "block.metalsplus.deepslate_tin_ore": "Hlubinná cínová ruda",
+  "block.metalsplus.raw_tin_block": "Blok vytěženého cínu",
+  "block.metalsplus.tin_ore": "Cínová ruda",
 
   "itemgroup.metalsplus.metal_plus_items": "MetalPlus Itemy",
   "itemgroup.metalsplus.metal_plus_blocks": "MetalPlus Bloky"
+
 }
