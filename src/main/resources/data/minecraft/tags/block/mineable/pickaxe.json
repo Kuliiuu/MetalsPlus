@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "metalsplus:tin_ore",
+    "metalsplus:deepslate_tin_ore",
+    "metalsplus:tin_block",
+    "metalsplus:bronze_block",
+    "metalsplus:raw_tin_block"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "metalsplus:tin_dust"
+    },
+    "@": {
+      "item": "metalsplus:copper_dust"
+    }
+  },
+  "pattern": [
+    "@@ ",
+    "@# ",
+    "   "
+  ],
+  "result": {
+    "count": 3,
+    "id": "metalsplus:bronze_dust"
+  }
+}

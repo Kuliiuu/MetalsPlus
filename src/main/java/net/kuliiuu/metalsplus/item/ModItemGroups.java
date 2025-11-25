@@ -19,6 +19,7 @@ public class ModItemGroups {
                         entries.add(ModItems.BRONZE_DUST);
                         entries.add(ModItems.BRONZE_INGOT);
                         entries.add(ModItems.BRONZE_NUGGET);
+                        entries.add(ModItems.COPPER_DUST);
                         entries.add(ModItems.COPPER_NUGGET);
                         entries.add(ModItems.RAW_TIN);
                         entries.add(ModItems.TIN_INGOT);

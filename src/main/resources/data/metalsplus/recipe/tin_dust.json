@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "metalsplus:tin_ingot"
+    },
+    "@": {
+      "item": "minecraft:cobblestone"
+    }
+  },
+  "pattern": [
+    " @ ",
+    " # ",
+    " @ "
+  ],
+  "result": {
+    "count": 2,
+    "id": "metalsplus:tin_dust"
+  }
+}
