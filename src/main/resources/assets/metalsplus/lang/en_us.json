@@ -1,6 +1,13 @@
 {
   "item.metalsplus.copper_nugget": "Copper Nugget",
   "item.metalsplus.tin_nugget": "Tin Nugget",
+  "item.metalsplus.raw_tin": "Raw Tin",
+  "item.metalsplus.tin_ingot": "Tin Ingot",
+  "item.metalsplus.bronze_dust": "Bronze Dust",
+  "item.metalsplus.bronze_ingot": "Bronze Ingot",
+  "item.metalsplus.bronze_nugget": "Bronze Nugget",
+  "item.metalsplus.copper_dust": "Copper Dust",
+  "item.metalsplus.tin_dust": "Tin Dust",
 
   "block.metalsplus.tin_block": "Block of Tin",
 

@@ -16,8 +16,14 @@ public class ModItemGroups {
             FabricItemGroup.builder().icon(() -> new ItemStack(ModItems.TIN_NUGGET))
                     .displayName(Text.translatable("itemgroup.metalsplus.metal_plus_items"))
                     .entries((displayContext, entries) -> {
+                        entries.add(ModItems.BRONZE_DUST);
+                        entries.add(ModItems.BRONZE_INGOT);
+                        entries.add(ModItems.BRONZE_NUGGET);
                         entries.add(ModItems.COPPER_NUGGET);
+                        entries.add(ModItems.RAW_TIN);
+                        entries.add(ModItems.TIN_INGOT);
                         entries.add(ModItems.TIN_NUGGET);
+                        entries.add(ModItems.TIN_DUST);
                     }).build());
 
     public static final ItemGroup METAL_PLUS_BLOCKS_GROUP = Registry.register(Registries.ITEM_GROUP,

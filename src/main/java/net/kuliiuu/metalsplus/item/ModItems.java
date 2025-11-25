@@ -11,6 +11,13 @@ import net.minecraft.util.Identifier;
 public class ModItems {
     public static final Item COPPER_NUGGET = registerItem("copper_nugget", new Item(new Item.Settings()));
     public static final Item TIN_NUGGET = registerItem("tin_nugget", new Item(new Item.Settings()));
+    public static final Item RAW_TIN = registerItem("raw_tin", new Item(new Item.Settings()));
+    public static final Item BRONZE_DUST = registerItem("bronze_dust", new Item(new Item.Settings()));
+    public static final Item BRONZE_INGOT = registerItem("bronze_ingot", new Item(new Item.Settings()));
+    public static final Item BRONZE_NUGGET = registerItem("bronze_nugget", new Item(new Item.Settings()));
+    public static final Item COPPER_DUST = registerItem("copper_dust", new Item(new Item.Settings()));
+    public static final Item TIN_DUST = registerItem("tin_dust", new Item(new Item.Settings()));
+    public static final Item TIN_INGOT = registerItem("tin_ingot", new Item(new Item.Settings()));
 
 
 
@@ -21,9 +28,18 @@ public class ModItems {
     public static void registerModItems() {
         MetalsPlus.LOGGER.info("Registering Mod Items - " + MetalsPlus.MOD_ID);
 
+        /*
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(entries -> {
             entries.add(COPPER_NUGGET);
             entries.add(TIN_NUGGET);
+            entries.add(RAW_TIN);
+            entries.add(BRONZE_DUST);
+            entries.add(BRONZE_INGOT);
+            entries.add(BRONZE_NUGGET);
+            entries.add(COPPER_DUST);
+            entries.add(TIN_DUST);
+            entries.add(TIN_INGOT);
         });
-        }
+        */
+    }
 }

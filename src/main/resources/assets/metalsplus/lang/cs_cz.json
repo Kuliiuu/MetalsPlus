@@ -1,6 +1,13 @@
 {
   "item.metalsplus.copper_nugget": "Měděný nuget",
   "item.metalsplus.tin_nugget": "Cínový nuget",
+  "item.metalsplus.raw_tin": "Vytěžený cín",
+  "item.metalsplus.tin_ingot": "Cínový ingot",
+  "item.metalsplus.bronze_dust": "Bronzový prach",
+  "item.metalsplus.bronze_ingot": "Bronzový ingot",
+  "item.metalsplus.bronze_nugget": "Bronzový nuget",
+  "item.metalsplus.copper_dust": "Měděný prach",
+  "item.metalsplus.tin_dust": "Cínový prach",
 
   "block.metalsplus.tin_block": "Blok cínu",
 
