@@ -3,6 +3,7 @@ package net.kuliiuu.metalsplus.item;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.kuliiuu.metalsplus.MetalsPlus;
 import net.kuliiuu.metalsplus.block.ModBlocks;
+import net.kuliiuu.metalsplus.item.custom.ChiselItem;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
 import net.minecraft.registry.Registries;
@@ -19,6 +20,7 @@ public class ModItemGroups {
                         entries.add(ModItems.BRONZE_DUST);
                         entries.add(ModItems.BRONZE_INGOT);
                         entries.add(ModItems.BRONZE_NUGGET);
+                        entries.add(ModItems.CHISEL);
                         entries.add(ModItems.COPPER_DUST);
                         entries.add(ModItems.COPPER_NUGGET);
                         entries.add(ModItems.RAW_TIN);

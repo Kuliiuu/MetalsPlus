@@ -1,6 +1,7 @@
 package net.kuliiuu.metalsplus.item;
 
 import net.kuliiuu.metalsplus.MetalsPlus;
+import net.kuliiuu.metalsplus.item.custom.ChiselItem;
 import net.minecraft.item.Item;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
@@ -17,6 +18,7 @@ public class ModItems {
     public static final Item TIN_DUST = registerItem("tin_dust", new Item(new Item.Settings()));
     public static final Item TIN_INGOT = registerItem("tin_ingot", new Item(new Item.Settings()));
 
+    public static final Item CHISEL = registerItem("chisel", new ChiselItem(new Item.Settings().maxDamage(32)));
 
 
     private static Item registerItem(String name, Item item) {

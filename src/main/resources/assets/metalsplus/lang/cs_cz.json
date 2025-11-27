@@ -8,6 +8,8 @@
   "item.metalsplus.bronze_nugget": "Bronzový nuget",
   "item.metalsplus.copper_dust": "Měděný prach",
   "item.metalsplus.tin_dust": "Cínový prach",
+  "item.metalsplus.chisel": "Bronzové dláto",
+
 
   "block.metalsplus.tin_block": "Blok cínu",
   "block.metalsplus.bronze_block": "Blok bronzu",
@@ -15,7 +17,7 @@
   "block.metalsplus.raw_tin_block": "Blok vytěženého cínu",
   "block.metalsplus.tin_ore": "Cínová ruda",
 
-  "itemgroup.metalsplus.metal_plus_items": "MetalPlus Itemy",
-  "itemgroup.metalsplus.metal_plus_blocks": "MetalPlus Bloky"
+  "itemgroup.metalsplus.metal_plus_items": "MetalsPlus Itemy",
+  "itemgroup.metalsplus.metal_plus_blocks": "MetalsPlus Bloky"
 
 }
