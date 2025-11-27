@@ -1,6 +1,7 @@
 package net.kuliiuu.metalsplus.block;
 
 import net.kuliiuu.metalsplus.MetalsPlus;
+import net.kuliiuu.metalsplus.block.custom.TinBooster;
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
 import net.minecraft.block.ExperienceDroppingBlock;
@@ -30,6 +31,12 @@ public class ModBlocks {
                     .strength(3.5f, 4f)
                     .requiresTool()
                     .sounds(BlockSoundGroup.STONE)));
+
+    public static final Block TIN_BOOSTER = registerBlock("tin_booster", new TinBooster(
+            AbstractBlock.Settings.create()
+                    .strength(3f, 4f)
+                    .requiresTool()
+                    .sounds(BlockSoundGroup.METAL)));
 
 
     // Ores

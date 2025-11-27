@@ -39,6 +39,7 @@ public class ModItemGroups {
                         entries.add(ModBlocks.DEEPSLATE_TIN_ORE);
                         entries.add(ModBlocks.TIN_ORE);
                         entries.add(ModBlocks.TIN_BLOCK);
+                        entries.add(ModBlocks.TIN_BOOSTER);
                     }).build());
 
     public static void registerItemGroups() {
