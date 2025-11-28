@@ -2,6 +2,11 @@
 
 MetalsPlus is a lightweight and expandable Fabric mod for Minecraft 1.21.1 that introduces new metals, materials, and later world generation features. The goal of the mod is to enhance mid-game progression without unnecessary complexity.
 
+## Why?
+
+This mod is made as my project for my thesis. If you have some feedback, please contact me: @marneyy_
+
+
 ## Translation
 
 Mod is in two languages, English (US) and Czech.
