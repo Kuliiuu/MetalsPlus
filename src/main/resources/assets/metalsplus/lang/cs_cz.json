@@ -9,6 +9,7 @@
   "item.metalsplus.copper_dust": "Měděný prach",
   "item.metalsplus.tin_dust": "Cínový prach",
   "item.metalsplus.chisel": "Bronzové dláto",
+  "item.metalsplus.lignite_coal": "Hnědé uhlí",
 
 
   "block.metalsplus.tin_block": "Blok cínu",
@@ -17,6 +18,9 @@
   "block.metalsplus.raw_tin_block": "Blok vytěženého cínu",
   "block.metalsplus.tin_ore": "Cínová ruda",
   "block.metalsplus.tin_booster": "Cínový urychlovač",
+  "block.metalsplus.deepslate_lignite_coal_ore": "Hlubinné ložisko hnědého uhlí",
+  "block.metalsplus.lignite_coal_ore": "Ložisko hnědého uhlí",
+  "block.metalsplus.lignite_coal_block": "Blok hnědého uhlí",
 
 
   "itemgroup.metalsplus.metal_plus_items": "MetalsPlus Itemy",

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "metalsplus:lignite_coal_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "metalsplus:lignite_coal"
+  }
+}

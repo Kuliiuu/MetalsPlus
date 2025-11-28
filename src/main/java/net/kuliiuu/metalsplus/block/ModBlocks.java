@@ -38,6 +38,13 @@ public class ModBlocks {
                     .requiresTool()
                     .sounds(BlockSoundGroup.METAL)));
 
+    public static final Block LIGNITE_COAL_BLOCK = registerBlock("lignite_coal_block", new TinBooster(
+            AbstractBlock.Settings.create()
+                    .strength(3f, 3f)
+                    .requiresTool()
+                    .sounds(BlockSoundGroup.STONE)));
+
+
 
     // Ores
     public static final Block DEEPSLATE_TIN_ORE = registerBlock("deepslate_tin_ore", new ExperienceDroppingBlock(
@@ -46,8 +53,12 @@ public class ModBlocks {
     public static final Block TIN_ORE = registerBlock("tin_ore", new ExperienceDroppingBlock(
             UniformIntProvider.create(2, 5),
             AbstractBlock.Settings.create().strength(2.5f, 2.5f).requiresTool().sounds(BlockSoundGroup.STONE)));
-
-
+    public static final Block DEEPSLATE_LIGNITE_COAL_ORE = registerBlock("deepslate_lignite_coal_ore", new ExperienceDroppingBlock(
+            UniformIntProvider.create(2, 5),
+            AbstractBlock.Settings.create().strength(3f, 3f).requiresTool().sounds(BlockSoundGroup.DEEPSLATE)));
+    public static final Block LIGNITE_COAL_ORE = registerBlock("lignite_coal_ore", new ExperienceDroppingBlock(
+            UniformIntProvider.create(2, 5),
+            AbstractBlock.Settings.create().strength(4.5f, 3f).requiresTool().sounds(BlockSoundGroup.STONE)));
 
 
     private static Block registerBlock(String name, Block block) {

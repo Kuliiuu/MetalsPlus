@@ -27,6 +27,7 @@ public class ModItemGroups {
                         entries.add(ModItems.TIN_INGOT);
                         entries.add(ModItems.TIN_NUGGET);
                         entries.add(ModItems.TIN_DUST);
+                        entries.add(ModItems.LIGNITE_COAL);
                     }).build());
 
     public static final ItemGroup METAL_PLUS_BLOCKS_GROUP = Registry.register(Registries.ITEM_GROUP,
@@ -40,6 +41,9 @@ public class ModItemGroups {
                         entries.add(ModBlocks.TIN_ORE);
                         entries.add(ModBlocks.TIN_BLOCK);
                         entries.add(ModBlocks.TIN_BOOSTER);
+                        entries.add(ModBlocks.DEEPSLATE_LIGNITE_COAL_ORE);
+                        entries.add(ModBlocks.LIGNITE_COAL_ORE);
+                        entries.add(ModBlocks.LIGNITE_COAL_BLOCK);
                     }).build());
 
     public static void registerItemGroups() {

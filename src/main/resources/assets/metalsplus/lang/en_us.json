@@ -9,6 +9,7 @@
   "item.metalsplus.copper_dust": "Copper Dust",
   "item.metalsplus.tin_dust": "Tin Dust",
   "item.metalsplus.chisel": "Bronze Chisel",
+  "item.metalsplus.lignite_coal": "Lignite Coal",
 
 
   "block.metalsplus.tin_block": "Block of Tin",
@@ -17,6 +18,9 @@
   "block.metalsplus.raw_tin_block": "Block of Raw Tin",
   "block.metalsplus.tin_ore": "Tin Ore",
   "block.metalsplus.tin_booster": "Tin Booster",
+  "block.metalsplus.deepslate_lignite_coal_ore": "Deepslate Lignite Coal Ore",
+  "block.metalsplus.lignite_coal_ore": "Lignite Coal Ore",
+  "block.metalsplus.lignite_coal_block": "Lignite Coal Block",
 
 
   "itemgroup.metalsplus.metal_plus_items": "MetalsPlus Items",

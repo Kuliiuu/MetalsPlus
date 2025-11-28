@@ -17,8 +17,9 @@ public class ModItems {
     public static final Item COPPER_DUST = registerItem("copper_dust", new Item(new Item.Settings()));
     public static final Item TIN_DUST = registerItem("tin_dust", new Item(new Item.Settings()));
     public static final Item TIN_INGOT = registerItem("tin_ingot", new Item(new Item.Settings()));
+    public static final Item LIGNITE_COAL = registerItem("lignite_coal", new Item(new Item.Settings()));
 
-    public static final Item CHISEL = registerItem("chisel", new ChiselItem(new Item.Settings().maxDamage(32)));
+    public static final Item CHISEL = registerItem("chisel", new ChiselItem(new Item.Settings().maxDamage(50)));
 
 
     private static Item registerItem(String name, Item item) {

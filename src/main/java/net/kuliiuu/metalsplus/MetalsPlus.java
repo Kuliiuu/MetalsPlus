@@ -2,6 +2,7 @@ package net.kuliiuu.metalsplus;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.fabricmc.fabric.api.registry.FuelRegistry;
 import net.kuliiuu.metalsplus.block.ModBlocks;
 import net.kuliiuu.metalsplus.item.ModItemGroups;
 import net.kuliiuu.metalsplus.item.ModItems;
@@ -17,5 +18,8 @@ public class MetalsPlus implements ModInitializer {
         ModItemGroups.registerItemGroups();
         ModItems.registerModItems();
         ModBlocks.registerModBlocks();
+
+        FuelRegistry.INSTANCE.add(ModItems.LIGNITE_COAL, 1200);
+        FuelRegistry.INSTANCE.add(ModBlocks.LIGNITE_COAL_BLOCK, 12000);
 	}
 }
