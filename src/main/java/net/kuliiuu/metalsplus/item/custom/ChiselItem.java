@@ -17,12 +17,14 @@ import java.util.Map;
 public class ChiselItem extends Item {
     private static final Map<Block, Block> CHISEL_MAP =
             Map.of(
-                    Blocks.CRYING_OBSIDIAN, Blocks.OBSIDIAN,
-                    Blocks.CRACKED_STONE_BRICKS, Blocks.STONE_BRICKS,
-                    Blocks.CRACKED_DEEPSLATE_BRICKS, Blocks.DEEPSLATE_BRICKS,
-                    Blocks.CRACKED_DEEPSLATE_TILES, Blocks.DEEPSLATE_TILES,
-                    Blocks.CRACKED_NETHER_BRICKS, Blocks.NETHER_BRICKS,
-                    Blocks.CRACKED_POLISHED_BLACKSTONE_BRICKS, Blocks.POLISHED_BLACKSTONE_BRICKS
+                    Blocks.OBSIDIAN, Blocks.CRYING_OBSIDIAN,
+                    Blocks.STONE_BRICKS, Blocks.CRACKED_STONE_BRICKS,
+                    Blocks.DEEPSLATE_BRICKS, Blocks.CRACKED_DEEPSLATE_BRICKS,
+                    Blocks.DEEPSLATE_TILES, Blocks.CRACKED_DEEPSLATE_TILES,
+                    Blocks.NETHER_BRICKS, Blocks.CRACKED_NETHER_BRICKS,
+                    Blocks.POLISHED_BLACKSTONE_BRICKS, Blocks.CRACKED_POLISHED_BLACKSTONE_BRICKS,
+                    Blocks.MOSSY_COBBLESTONE, Blocks.COBBLESTONE,
+                    Blocks.MOSSY_STONE_BRICKS, Blocks.STONE_BRICKS
             );
 
     public ChiselItem(Settings settings) {
