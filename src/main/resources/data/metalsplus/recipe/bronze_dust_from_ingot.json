@@ -3,7 +3,7 @@
   "category": "misc",
   "key": {
     "#": {
-      "item": "minecraft:copper_ingot"
+      "item": "metalsplus:bronze_ingot"
     },
     "@": {
       "item": "minecraft:cobblestone"
@@ -15,7 +15,7 @@
     "   "
   ],
   "result": {
-    "count": 2,
-    "id": "metalsplus:copper_dust"
+    "count": 3,
+    "id": "metalsplus:bronze_dust"
   }
 }
