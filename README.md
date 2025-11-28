@@ -9,7 +9,7 @@ Mod is in two languages, English (US) and Czech.
 
 ## What did the mod add?
 
-## Tin Related
+Tin Related
 - Tin Ingot
 - Raw Tin
 - Tin Ore (normal and deepslate variant)
@@ -19,17 +19,17 @@ Mod is in two languages, English (US) and Czech.
 - Raw Tin Block
 - Tin Block
 
-## Copper Related
+Copper Related
 - Copper Nugget
 - Copper Dust
 
-## Bronze Related
+Bronze Related
 - Bronze Ingot
 - Bronze Dust
 - Bronze Block
 - Bronze Chisel
 
-## Lignite Coal Related
+Lignite Coal Related
 - Ligntie Coal Ore (deepslate and normal version)
 - Lignite Coal
 - Lignite Coal Block
