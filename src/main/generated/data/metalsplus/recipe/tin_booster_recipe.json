@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": {
+      "item": "metalsplus:tin_block"
+    },
+    "I": {
+      "item": "metalsplus:tin_ingot"
+    }
+  },
+  "pattern": [
+    "BIB",
+    "III",
+    "BIB"
+  ],
+  "result": {
+    "count": 1,
+    "id": "metalsplus:tin_booster"
+  }
+}

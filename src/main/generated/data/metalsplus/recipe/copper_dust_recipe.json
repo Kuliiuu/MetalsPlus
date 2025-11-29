@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": {
+      "item": "minecraft:copper_ingot"
+    },
+    "C": {
+      "item": "minecraft:cobblestone"
+    }
+  },
+  "pattern": [
+    "C  ",
+    "B  ",
+    "   "
+  ],
+  "result": {
+    "count": 1,
+    "id": "metalsplus:copper_dust"
+  }
+}

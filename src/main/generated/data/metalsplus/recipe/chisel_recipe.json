@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": {
+      "item": "metalsplus:bronze_ingot"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    "BSB",
+    " S ",
+    " B "
+  ],
+  "result": {
+    "count": 1,
+    "id": "metalsplus:chisel"
+  }
+}

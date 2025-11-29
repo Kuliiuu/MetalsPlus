@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_lignite_coal": {
+      "conditions": {
+        "items": [
+          {
+            "items": "metalsplus:lignite_coal"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "metalsplus:torch_from_lignite_coal_recipe"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_lignite_coal"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "metalsplus:torch_from_lignite_coal_recipe"
+    ]
+  }
+}

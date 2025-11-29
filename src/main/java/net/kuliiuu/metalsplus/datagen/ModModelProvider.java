@@ -1,0 +1,43 @@
+package net.kuliiuu.metalsplus.datagen;
+
+import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
+import net.fabricmc.fabric.api.datagen.v1.provider.FabricModelProvider;
+import net.kuliiuu.metalsplus.block.ModBlocks;
+import net.kuliiuu.metalsplus.item.ModItems;
+import net.minecraft.data.client.BlockStateModelGenerator;
+import net.minecraft.data.client.ItemModelGenerator;
+import net.minecraft.data.client.Models;
+
+public class ModModelProvider extends FabricModelProvider {
+    public ModModelProvider(FabricDataOutput output) {
+        super(output);
+    }
+
+    @Override
+    public void generateBlockStateModels(BlockStateModelGenerator blockStateModelGenerator) {
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.DEEPSLATE_TIN_ORE);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.RAW_TIN_BLOCK);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.TIN_BLOCK);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.LIGNITE_COAL_ORE);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.TIN_BOOSTER);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.DEEPSLATE_LIGNITE_COAL_ORE);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.TIN_ORE);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.LIGNITE_COAL_BLOCK);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.BRONZE_BLOCK);
+    }
+
+    @Override
+    public void generateItemModels(ItemModelGenerator itemModelGenerator) {
+        itemModelGenerator.register(ModItems.LIGNITE_COAL, Models.GENERATED);
+        itemModelGenerator.register(ModItems.TIN_NUGGET, Models.GENERATED);
+        itemModelGenerator.register(ModItems.BRONZE_DUST, Models.GENERATED);
+        itemModelGenerator.register(ModItems.BRONZE_INGOT, Models.GENERATED);
+        itemModelGenerator.register(ModItems.CHISEL, Models.GENERATED);
+        itemModelGenerator.register(ModItems.BRONZE_NUGGET, Models.GENERATED);
+        itemModelGenerator.register(ModItems.COPPER_DUST, Models.GENERATED);
+        itemModelGenerator.register(ModItems.COPPER_NUGGET, Models.GENERATED);
+        itemModelGenerator.register(ModItems.RAW_TIN, Models.GENERATED);
+        itemModelGenerator.register(ModItems.TIN_DUST, Models.GENERATED);
+        itemModelGenerator.register(ModItems.TIN_INGOT, Models.GENERATED);
+    }
+}

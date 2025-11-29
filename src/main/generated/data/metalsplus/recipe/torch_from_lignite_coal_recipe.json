@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "L": {
+      "item": "metalsplus:lignite_coal"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    "L  ",
+    "S  ",
+    "   "
+  ],
+  "result": {
+    "count": 3,
+    "id": "minecraft:torch"
+  }
+}

@@ -1,0 +1,4 @@
+// 1.21.1	2025-11-29T18:09:14.0112083	MetalsPlus/Tags for minecraft:block
+96f5715508d4e20f911a4861b0290bc30ea9eff5 data\metalsplus\tags\block\fuel_blocks.json
+7ea55a94842d37c52cbe92e517cc58132b75ba22 data\minecraft\tags\block\needs_stone_tool.json
+7ea55a94842d37c52cbe92e517cc58132b75ba22 data\minecraft\tags\block\mineable\pickaxe.json
