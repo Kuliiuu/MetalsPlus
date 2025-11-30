@@ -23,16 +23,23 @@ Tin Related
 - Tin Dust
 - Raw Tin Block
 - Tin Block
+- Tools
+- Armor Set
 
 Copper Related
 - Copper Nugget
 - Copper Dust
+- Tools
+- Armor Set
 
 Bronze Related
 - Bronze Ingot
 - Bronze Dust
 - Bronze Block
 - Bronze Chisel
+- Tools
+- 3x3 Hammer
+- Armor Set
 
 Lignite Coal Related
 - Ligntie Coal Ore (deepslate and normal version)
