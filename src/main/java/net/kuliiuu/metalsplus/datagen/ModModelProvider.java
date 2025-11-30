@@ -45,6 +45,7 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.BRONZE_PICKAXE, Models.HANDHELD);
         itemModelGenerator.register(ModItems.BRONZE_SHOVEL, Models.HANDHELD);
         itemModelGenerator.register(ModItems.BRONZE_HOE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.BRONZE_HAMMER, Models.HANDHELD);
 
         itemModelGenerator.register(ModItems.TIN_SWORD, Models.HANDHELD);
         itemModelGenerator.register(ModItems.TIN_AXE, Models.HANDHELD);

@@ -34,6 +34,7 @@ public class ModItemGroups {
                         entries.add(ModItems.BRONZE_PICKAXE);
                         entries.add(ModItems.BRONZE_SHOVEL);
                         entries.add(ModItems.BRONZE_HOE);
+                        entries.add(ModItems.BRONZE_HAMMER);
 
                         entries.add(ModItems.TIN_SWORD);
                         entries.add(ModItems.TIN_AXE);

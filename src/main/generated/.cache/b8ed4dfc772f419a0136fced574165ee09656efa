@@ -1,4 +1,4 @@
-// 1.21.1	2025-11-30T13:37:02.3911667	MetalsPlus/Model Definitions
+// 1.21.1	2025-11-30T14:31:03.8712761	MetalsPlus/Model Definitions
 98349599548ac5bc8fd8b3dbfeb656edc98a9686 assets\metalsplus\models\item\lignite_coal_ore.json
 62d5eba19e8267cf6cbb33ca0e518caa896f0bc0 assets\metalsplus\models\item\copper_dust.json
 f4acf28be244c29e207e50929cb9f24d936c7af9 assets\metalsplus\models\item\tin_dust.json
@@ -8,6 +8,7 @@ f8d6ebb0aafa24d50716f620de6d4af8d2b79727 assets\metalsplus\models\item\tin_sword
 276253f01b836b48e3b1b34e39395e3a65e9ae03 assets\metalsplus\blockstates\deepslate_tin_ore.json
 7f090fee9f042a053086fd11299853570b0952b5 assets\metalsplus\blockstates\bronze_block.json
 5c7dda0fc8b8baba1dd8479c25b5e023e6196128 assets\metalsplus\models\item\tin_booster.json
+a20df0e5935b5c3513fedc8f16ed78dd669af607 assets\metalsplus\models\item\bronze_hammer.json
 1c7fb74b24404ca7ee1a9221df41f7ceff58dd38 assets\metalsplus\models\item\bronze_axe.json
 34edaa2bc8279327f54539abfb81be523d0fcb22 assets\metalsplus\models\item\bronze_shovel.json
 ac5ca156dcfb39c41e693d04286eb4b2606054af assets\metalsplus\models\item\tin_hoe.json
@@ -38,8 +39,8 @@ c0a6a5f0810bf7fba1ba669da4d44da668370fbe assets\metalsplus\models\item\tin_axe.j
 3aca30a60cc711fb6dda37ffd898ab38e86cfd64 assets\metalsplus\models\item\copper_sword.json
 1752905c9406c6e23c8523517c98b21df3736223 assets\metalsplus\models\block\tin_booster.json
 e3e22bc1eeb4541a3a9ad5dbe526817139484f95 assets\metalsplus\models\item\deepslate_lignite_coal_ore.json
-346bfdedb7d862ce0ba0ddecd7fade27672b11ce assets\metalsplus\models\block\lignite_coal_ore.json
 8e276b0c20c7e338efad74e1891944af8b7982f5 assets\metalsplus\models\item\bronze_block.json
+346bfdedb7d862ce0ba0ddecd7fade27672b11ce assets\metalsplus\models\block\lignite_coal_ore.json
 3e95cbd5b0c3a909fcc9624eb13358ec2ce723d5 assets\metalsplus\models\item\lignite_coal_block.json
 895378817236f15afc2ba6d35c87805522b007fb assets\metalsplus\blockstates\tin_block.json
 220a3e477d87e3fcd66a6fc8ba68d53ec2d18c75 assets\metalsplus\blockstates\lignite_coal_ore.json

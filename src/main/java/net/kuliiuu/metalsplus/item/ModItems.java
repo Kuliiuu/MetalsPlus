@@ -2,6 +2,7 @@ package net.kuliiuu.metalsplus.item;
 
 import net.kuliiuu.metalsplus.MetalsPlus;
 import net.kuliiuu.metalsplus.item.custom.ChiselItem;
+import net.kuliiuu.metalsplus.item.custom.HammerItem;
 import net.kuliiuu.metalsplus.item.custom.ModToolMaterials;
 import net.minecraft.item.*;
 import net.minecraft.registry.Registries;
@@ -31,6 +32,9 @@ public class ModItems {
     public static final Item BRONZE_PICKAXE = registerItem("bronze_pickaxe",
             new PickaxeItem(ModToolMaterials.BRONZE, new Item.Settings()
                     .attributeModifiers(PickaxeItem.createAttributeModifiers(ModToolMaterials.BRONZE,1, -2.8f))));
+    public static final Item BRONZE_HAMMER = registerItem("bronze_hammer",
+            new HammerItem(ModToolMaterials.BRONZE, new Item.Settings()
+                    .attributeModifiers(PickaxeItem.createAttributeModifiers(ModToolMaterials.BRONZE,3, -3.5f))));
     public static final Item BRONZE_SHOVEL = registerItem("bronze_shovel",
             new ShovelItem(ModToolMaterials.BRONZE, new Item.Settings()
                     .attributeModifiers(ShovelItem.createAttributeModifiers(ModToolMaterials.BRONZE,1.5f, -3f))));

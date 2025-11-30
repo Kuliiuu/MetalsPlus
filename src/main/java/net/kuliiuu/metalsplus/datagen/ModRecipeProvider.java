@@ -190,6 +190,15 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .input('S', Items.STICK)
                 .criterion(hasItem(ModItems.BRONZE_INGOT), conditionsFromItem(ModItems.BRONZE_INGOT))
                 .offerTo(recipeExporter, Identifier.of(MetalsPlus.MOD_ID, "bronze_hoe_recipe"));
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.BRONZE_HAMMER)
+                .pattern("DDD")
+                .pattern(" S ")
+                .pattern(" B ")
+                .input('B', ModItems.BRONZE_INGOT)
+                .input('D', ModBlocks.BRONZE_BLOCK)
+                .input('S', Items.STICK)
+                .criterion(hasItem(ModItems.BRONZE_INGOT), conditionsFromItem(ModItems.BRONZE_INGOT))
+                .offerTo(recipeExporter, Identifier.of(MetalsPlus.MOD_ID, "bronze_hammer_recipe"));
 
 
         ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.TIN_SWORD)
