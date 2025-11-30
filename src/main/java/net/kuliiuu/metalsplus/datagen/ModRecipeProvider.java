@@ -283,5 +283,93 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .input('S', Items.STICK)
                 .criterion(hasItem(Items.COPPER_INGOT), conditionsFromItem(Items.COPPER_INGOT))
                 .offerTo(recipeExporter, Identifier.of(MetalsPlus.MOD_ID, "copper_hoe_recipe"));
+
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, ModItems.BRONZE_HELMET)
+                .pattern("BBB")
+                .pattern("B B")
+                .pattern("   ")
+                .input('B', ModItems.BRONZE_INGOT)
+                .criterion(hasItem(ModItems.BRONZE_INGOT), conditionsFromItem(ModItems.BRONZE_INGOT))
+                .offerTo(recipeExporter, Identifier.of(MetalsPlus.MOD_ID, "bronze_helmet_recipe"));
+        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, ModItems.BRONZE_CHESTPLATE)
+                .pattern("B B")
+                .pattern("BBB")
+                .pattern("BBB")
+                .input('B', ModItems.BRONZE_INGOT)
+                .criterion(hasItem(ModItems.BRONZE_INGOT), conditionsFromItem(ModItems.BRONZE_INGOT))
+                .offerTo(recipeExporter, Identifier.of(MetalsPlus.MOD_ID, "bronze_chestplate_recipe"));
+        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, ModItems.BRONZE_LEGGINGS)
+                .pattern("BBB")
+                .pattern("B B")
+                .pattern("B B")
+                .input('B', ModItems.BRONZE_INGOT)
+                .criterion(hasItem(ModItems.BRONZE_INGOT), conditionsFromItem(ModItems.BRONZE_INGOT))
+                .offerTo(recipeExporter, Identifier.of(MetalsPlus.MOD_ID, "bronze_leggings_recipe"));
+        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, ModItems.BRONZE_BOOTS)
+                .pattern("   ")
+                .pattern("B B")
+                .pattern("B B")
+                .input('B', ModItems.BRONZE_INGOT)
+                .criterion(hasItem(ModItems.BRONZE_INGOT), conditionsFromItem(ModItems.BRONZE_INGOT))
+                .offerTo(recipeExporter, Identifier.of(MetalsPlus.MOD_ID, "bronze_boots_recipe"));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, ModItems.TIN_HELMET)
+                .pattern("BBB")
+                .pattern("B B")
+                .pattern("   ")
+                .input('B', ModItems.TIN_INGOT)
+                .criterion(hasItem(ModItems.TIN_INGOT), conditionsFromItem(ModItems.TIN_INGOT))
+                .offerTo(recipeExporter, Identifier.of(MetalsPlus.MOD_ID, "tin_helmet_recipe"));
+        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, ModItems.TIN_CHESTPLATE)
+                .pattern("B B")
+                .pattern("BBB")
+                .pattern("BBB")
+                .input('B', ModItems.TIN_INGOT)
+                .criterion(hasItem(ModItems.TIN_INGOT), conditionsFromItem(ModItems.TIN_INGOT))
+                .offerTo(recipeExporter, Identifier.of(MetalsPlus.MOD_ID, "tin_chestplate_recipe"));
+        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, ModItems.TIN_LEGGINGS)
+                .pattern("BBB")
+                .pattern("B B")
+                .pattern("B B")
+                .input('B', ModItems.TIN_INGOT)
+                .criterion(hasItem(ModItems.TIN_INGOT), conditionsFromItem(ModItems.TIN_INGOT))
+                .offerTo(recipeExporter, Identifier.of(MetalsPlus.MOD_ID, "tin_leggings_recipe"));
+        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, ModItems.TIN_BOOTS)
+                .pattern("   ")
+                .pattern("B B")
+                .pattern("B B")
+                .input('B', ModItems.TIN_INGOT)
+                .criterion(hasItem(ModItems.TIN_INGOT), conditionsFromItem(ModItems.TIN_INGOT))
+                .offerTo(recipeExporter, Identifier.of(MetalsPlus.MOD_ID, "tin_boots_recipe"));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, ModItems.COPPER_HELMET)
+                .pattern("BBB")
+                .pattern("B B")
+                .pattern("   ")
+                .input('B', Items.COPPER_INGOT)
+                .criterion(hasItem(Items.COPPER_INGOT), conditionsFromItem(Items.COPPER_INGOT))
+                .offerTo(recipeExporter, Identifier.of(MetalsPlus.MOD_ID, "copper_helmet_recipe"));
+        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, ModItems.COPPER_CHESTPLATE)
+                .pattern("B B")
+                .pattern("BBB")
+                .pattern("BBB")
+                .input('B', Items.COPPER_INGOT)
+                .criterion(hasItem(Items.COPPER_INGOT), conditionsFromItem(Items.COPPER_INGOT))
+                .offerTo(recipeExporter, Identifier.of(MetalsPlus.MOD_ID, "copper_chestplate_recipe"));
+        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, ModItems.COPPER_LEGGINGS)
+                .pattern("BBB")
+                .pattern("B B")
+                .pattern("B B")
+                .input('B', Items.COPPER_INGOT)
+                .criterion(hasItem(Items.COPPER_INGOT), conditionsFromItem(Items.COPPER_INGOT))
+                .offerTo(recipeExporter, Identifier.of(MetalsPlus.MOD_ID, "copper_leggings_recipe"));
+        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, ModItems.COPPER_BOOTS)
+                .pattern("   ")
+                .pattern("B B")
+                .pattern("B B")
+                .input('B', Items.COPPER_INGOT)
+                .criterion(hasItem(Items.COPPER_INGOT), conditionsFromItem(Items.COPPER_INGOT))
+                .offerTo(recipeExporter, Identifier.of(MetalsPlus.MOD_ID, "copper_boots_recipe"));
     }
 }

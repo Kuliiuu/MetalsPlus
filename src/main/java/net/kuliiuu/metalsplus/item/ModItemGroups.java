@@ -47,6 +47,21 @@ public class ModItemGroups {
                         entries.add(ModItems.COPPER_PICKAXE);
                         entries.add(ModItems.COPPER_SHOVEL);
                         entries.add(ModItems.COPPER_HOE);
+
+                        entries.add(ModItems.BRONZE_HELMET);
+                        entries.add(ModItems.BRONZE_CHESTPLATE);
+                        entries.add(ModItems.BRONZE_LEGGINGS);
+                        entries.add(ModItems.BRONZE_BOOTS);
+
+                        entries.add(ModItems.TIN_HELMET);
+                        entries.add(ModItems.TIN_CHESTPLATE);
+                        entries.add(ModItems.TIN_LEGGINGS);
+                        entries.add(ModItems.TIN_BOOTS);
+
+                        entries.add(ModItems.COPPER_HELMET);
+                        entries.add(ModItems.COPPER_CHESTPLATE);
+                        entries.add(ModItems.COPPER_LEGGINGS);
+                        entries.add(ModItems.COPPER_BOOTS);
                     }).build());
 
     public static final ItemGroup METAL_PLUS_BLOCKS_GROUP = Registry.register(Registries.ITEM_GROUP,

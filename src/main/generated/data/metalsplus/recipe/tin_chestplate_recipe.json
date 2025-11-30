@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "B": {
+      "item": "metalsplus:tin_ingot"
+    }
+  },
+  "pattern": [
+    "B B",
+    "BBB",
+    "BBB"
+  ],
+  "result": {
+    "count": 1,
+    "id": "metalsplus:tin_chestplate"
+  }
+}

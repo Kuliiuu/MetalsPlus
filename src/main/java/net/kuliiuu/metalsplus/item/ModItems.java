@@ -23,6 +23,45 @@ public class ModItems {
 
     public static final Item CHISEL = registerItem("chisel", new ChiselItem(new Item.Settings().maxDamage(50)));
 
+    public static final Item BRONZE_HELMET = registerItem("bronze_helmet",
+            new ArmorItem(ModArmorMaterials.BRONZE_ARMOR_MATERIAL, ArmorItem.Type.HELMET, new Item.Settings()
+                    .maxDamage(ArmorItem.Type.HELMET.getMaxDamage(12))));
+    public static final Item BRONZE_CHESTPLATE = registerItem("bronze_chestplate",
+            new ArmorItem(ModArmorMaterials.BRONZE_ARMOR_MATERIAL, ArmorItem.Type.CHESTPLATE, new Item.Settings()
+                    .maxDamage(ArmorItem.Type.CHESTPLATE.getMaxDamage(12))));
+    public static final Item BRONZE_LEGGINGS = registerItem("bronze_leggings",
+            new ArmorItem(ModArmorMaterials.BRONZE_ARMOR_MATERIAL, ArmorItem.Type.LEGGINGS, new Item.Settings()
+                    .maxDamage(ArmorItem.Type.LEGGINGS.getMaxDamage(12))));
+    public static final Item BRONZE_BOOTS = registerItem("bronze_boots",
+            new ArmorItem(ModArmorMaterials.BRONZE_ARMOR_MATERIAL, ArmorItem.Type.BOOTS, new Item.Settings()
+                    .maxDamage(ArmorItem.Type.BOOTS.getMaxDamage(12))));
+
+    public static final Item TIN_HELMET = registerItem("tin_helmet",
+            new ArmorItem(ModArmorMaterials.TIN_ARMOR_MATERIAL, ArmorItem.Type.HELMET, new Item.Settings()
+                    .maxDamage(ArmorItem.Type.HELMET.getMaxDamage(8))));
+    public static final Item TIN_CHESTPLATE = registerItem("tin_chestplate",
+            new ArmorItem(ModArmorMaterials.TIN_ARMOR_MATERIAL, ArmorItem.Type.CHESTPLATE, new Item.Settings()
+                    .maxDamage(ArmorItem.Type.CHESTPLATE.getMaxDamage(8))));
+    public static final Item TIN_LEGGINGS = registerItem("tin_leggings",
+            new ArmorItem(ModArmorMaterials.TIN_ARMOR_MATERIAL, ArmorItem.Type.LEGGINGS, new Item.Settings()
+                    .maxDamage(ArmorItem.Type.LEGGINGS.getMaxDamage(8))));
+    public static final Item TIN_BOOTS = registerItem("tin_boots",
+            new ArmorItem(ModArmorMaterials.TIN_ARMOR_MATERIAL, ArmorItem.Type.BOOTS, new Item.Settings()
+                    .maxDamage(ArmorItem.Type.BOOTS.getMaxDamage(8))));
+
+    public static final Item COPPER_HELMET = registerItem("copper_helmet",
+            new ArmorItem(ModArmorMaterials.COPPER_ARMOR_MATERIAL, ArmorItem.Type.HELMET, new Item.Settings()
+                    .maxDamage(ArmorItem.Type.HELMET.getMaxDamage(10))));
+    public static final Item COPPER_CHESTPLATE = registerItem("copper_chestplate",
+            new ArmorItem(ModArmorMaterials.COPPER_ARMOR_MATERIAL, ArmorItem.Type.CHESTPLATE, new Item.Settings()
+                    .maxDamage(ArmorItem.Type.CHESTPLATE.getMaxDamage(10))));
+    public static final Item COPPER_LEGGINGS = registerItem("copper_leggings",
+            new ArmorItem(ModArmorMaterials.COPPER_ARMOR_MATERIAL, ArmorItem.Type.LEGGINGS, new Item.Settings()
+                    .maxDamage(ArmorItem.Type.LEGGINGS.getMaxDamage(10))));
+    public static final Item COPPER_BOOTS = registerItem("copper_boots",
+            new ArmorItem(ModArmorMaterials.COPPER_ARMOR_MATERIAL, ArmorItem.Type.BOOTS, new Item.Settings()
+                    .maxDamage(ArmorItem.Type.BOOTS.getMaxDamage(10))));
+
     public static final Item BRONZE_SWORD = registerItem("bronze_sword",
             new SwordItem(ModToolMaterials.BRONZE, new Item.Settings()
                     .attributeModifiers(SwordItem.createAttributeModifiers(ModToolMaterials.BRONZE,3, -2.4f))));

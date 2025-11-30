@@ -30,6 +30,21 @@
   "item.metalsplus.copper_shovel": "Copper Shovel",
   "item.metalsplus.copper_hoe": "Copper Hoe",
 
+  "item.metalsplus.bronze_helmet": "Bronze Helmet",
+  "item.metalsplus.bronze_chestplate": "Bronze Chestplate",
+  "item.metalsplus.bronze_leggings": "Bronze Leggings",
+  "item.metalsplus.bronze_boots": "Bronze Boots",
+
+  "item.metalsplus.tin_helmet": "Tin Helmet",
+  "item.metalsplus.tin_chestplate": "Tin Chestplate",
+  "item.metalsplus.tin_leggings": "Tin Leggings",
+  "item.metalsplus.tin_boots": "Tin Boots",
+
+  "item.metalsplus.copper_helmet": "Copper Helmet",
+  "item.metalsplus.copper_chestplate": "Copper Chestplate",
+  "item.metalsplus.copper_leggings": "Copper Leggings",
+  "item.metalsplus.copper_boots": "Copper Boots",
+
 
   "block.metalsplus.tin_block": "Block of Tin",
   "block.metalsplus.bronze_block": "Block of Bronze",

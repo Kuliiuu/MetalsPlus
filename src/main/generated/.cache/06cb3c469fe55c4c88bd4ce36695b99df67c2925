@@ -1,7 +1,8 @@
-// 1.21.1	2025-11-30T14:31:03.8692721	MetalsPlus/Tags for minecraft:item
+// 1.21.1	2025-11-30T15:31:13.2316743	MetalsPlus/Tags for minecraft:item
 9528cd4d28c4c263652264d0fa520eb0b6f01559 data\minecraft\tags\item\axes.json
 3716b8582e99ccfd0f0bdb9b28f51362aead8679 data\metalsplus\tags\item\fuel_items.json
 dd8efc15a516d8d8120a45050b98e94ee84548aa data\minecraft\tags\item\hoes.json
 7761e314f34a66a8a65870c61008a57eea5b9136 data\minecraft\tags\item\pickaxes.json
+2b98b2d2a9dec61787ac279a7ffd5beab96126b8 data\minecraft\tags\item\trimmable_armor.json
 e96879a450eeeb7e12efa8e5d7785f03bd98a773 data\minecraft\tags\item\swords.json
 c79ffcba87d422c81883239364552009286a99dc data\minecraft\tags\item\shovels.json

@@ -30,6 +30,21 @@
   "item.metalsplus.copper_shovel": "Měděná lopata",
   "item.metalsplus.copper_hoe": "Měděná motyka",
 
+  "item.metalsplus.bronze_helmet": "Bronzová helma",
+  "item.metalsplus.bronze_chestplate": "Bronzová brnění",
+  "item.metalsplus.bronze_leggings": "Bronzové kalhoty",
+  "item.metalsplus.bronze_boots": "Bronzové boty",
+
+  "item.metalsplus.tin_helmet": "Cínová helma",
+  "item.metalsplus.tin_chestplate": "Cínová brnění",
+  "item.metalsplus.tin_leggings": "Cínové kalhoty",
+  "item.metalsplus.tin_boots": "Cínové boty",
+
+  "item.metalsplus.copper_helmet": "Měděná helma",
+  "item.metalsplus.copper_chestplate": "Měděná brnění",
+  "item.metalsplus.copper_leggings": "Měděné kalhoty",
+  "item.metalsplus.copper_boots": "Měděné boty",
+
 
   "block.metalsplus.tin_block": "Blok cínu",
   "block.metalsplus.bronze_block": "Blok bronzu",
