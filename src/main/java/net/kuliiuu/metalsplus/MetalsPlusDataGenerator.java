@@ -3,6 +3,10 @@ package net.kuliiuu.metalsplus;
 import net.fabricmc.fabric.api.datagen.v1.DataGeneratorEntrypoint;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataGenerator;
 import net.kuliiuu.metalsplus.datagen.*;
+import net.kuliiuu.metalsplus.world.ModConfiguredFeatures;
+import net.kuliiuu.metalsplus.world.ModPlacedFeatures;
+import net.minecraft.registry.RegistryBuilder;
+import net.minecraft.registry.RegistryKeys;
 
 public class MetalsPlusDataGenerator implements DataGeneratorEntrypoint {
 
@@ -16,4 +20,10 @@ public class MetalsPlusDataGenerator implements DataGeneratorEntrypoint {
         pack.addProvider(ModModelProvider::new);
         pack.addProvider(ModRecipeProvider::new);
 	}
+
+    @Override
+    public void buildRegistry(RegistryBuilder registryBuilder) {
+        registryBuilder.addRegistry(RegistryKeys.CONFIGURED_FEATURE, ModConfiguredFeatures::bootstrap);
+        registryBuilder.addRegistry(RegistryKeys.PLACED_FEATURE, ModPlacedFeatures::bootstrap);
+    }
 }
