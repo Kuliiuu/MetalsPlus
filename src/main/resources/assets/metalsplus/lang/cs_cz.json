@@ -11,6 +11,24 @@
   "item.metalsplus.chisel": "Bronzové dláto",
   "item.metalsplus.lignite_coal": "Hnědé uhlí",
 
+  "item.metalsplus.bronze_sword": "Bronzový meč",
+  "item.metalsplus.bronze_axe": "Bronzová sekera",
+  "item.metalsplus.bronze_pickaxe": "Bronzový krumpáč",
+  "item.metalsplus.bronze_shovel": "Bronzová lopata",
+  "item.metalsplus.bronze_hoe": "Bronzová motyka",
+
+  "item.metalsplus.tin_sword": "Cínový meč",
+  "item.metalsplus.tin_axe": "Cínová sekera",
+  "item.metalsplus.tin_pickaxe": "Cínový krumpáč",
+  "item.metalsplus.tin_shovel": "Cínová lopata",
+  "item.metalsplus.tin_hoe": "Cínová motyka",
+
+  "item.metalsplus.copper_sword": "Měděný meč",
+  "item.metalsplus.copper_axe": "Měděná sekera",
+  "item.metalsplus.copper_pickaxe": "Měděný krumpáč",
+  "item.metalsplus.copper_shovel": "Měděná lopata",
+  "item.metalsplus.copper_hoe": "Měděná motyka",
+
 
   "block.metalsplus.tin_block": "Blok cínu",
   "block.metalsplus.bronze_block": "Blok bronzu",

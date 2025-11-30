@@ -11,6 +11,24 @@
   "item.metalsplus.chisel": "Bronze Chisel",
   "item.metalsplus.lignite_coal": "Lignite Coal",
 
+  "item.metalsplus.bronze_sword": "Bronze Sword",
+  "item.metalsplus.bronze_axe": "Bronze Axe",
+  "item.metalsplus.bronze_pickaxe": "Bronze Pickaxe",
+  "item.metalsplus.bronze_shovel": "Bronze Shovel",
+  "item.metalsplus.bronze_hoe": "Bronze Hoe",
+
+  "item.metalsplus.tin_sword": "Tin Sword",
+  "item.metalsplus.tin_axe": "Tin Axe",
+  "item.metalsplus.tin_pickaxe": "Tin Pickaxe",
+  "item.metalsplus.tin_shovel": "Tin Shovel",
+  "item.metalsplus.tin_hoe": "Tin Hoe",
+
+  "item.metalsplus.copper_sword": "Copper Sword",
+  "item.metalsplus.copper_axe": "Copper Axe",
+  "item.metalsplus.copper_pickaxe": "Copper Pickaxe",
+  "item.metalsplus.copper_shovel": "Copper Shovel",
+  "item.metalsplus.copper_hoe": "Copper Hoe",
+
 
   "block.metalsplus.tin_block": "Block of Tin",
   "block.metalsplus.bronze_block": "Block of Bronze",

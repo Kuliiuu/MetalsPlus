@@ -28,6 +28,24 @@ public class ModItemGroups {
                         entries.add(ModItems.TIN_NUGGET);
                         entries.add(ModItems.TIN_DUST);
                         entries.add(ModItems.LIGNITE_COAL);
+
+                        entries.add(ModItems.BRONZE_SWORD);
+                        entries.add(ModItems.BRONZE_AXE);
+                        entries.add(ModItems.BRONZE_PICKAXE);
+                        entries.add(ModItems.BRONZE_SHOVEL);
+                        entries.add(ModItems.BRONZE_HOE);
+
+                        entries.add(ModItems.TIN_SWORD);
+                        entries.add(ModItems.TIN_AXE);
+                        entries.add(ModItems.TIN_PICKAXE);
+                        entries.add(ModItems.TIN_SHOVEL);
+                        entries.add(ModItems.TIN_HOE);
+
+                        entries.add(ModItems.COPPER_SWORD);
+                        entries.add(ModItems.COPPER_AXE);
+                        entries.add(ModItems.COPPER_PICKAXE);
+                        entries.add(ModItems.COPPER_SHOVEL);
+                        entries.add(ModItems.COPPER_HOE);
                     }).build());
 
     public static final ItemGroup METAL_PLUS_BLOCKS_GROUP = Registry.register(Registries.ITEM_GROUP,

@@ -3,10 +3,10 @@
   "category": "misc",
   "key": {
     "C": {
-      "item": "minecraft:copper_ingot"
+      "item": "metalsplus:copper_dust"
     },
     "T": {
-      "item": "metalsplus:tin_ingot"
+      "item": "metalsplus:tin_dust"
     }
   },
   "pattern": [

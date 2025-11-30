@@ -32,12 +32,30 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.TIN_NUGGET, Models.GENERATED);
         itemModelGenerator.register(ModItems.BRONZE_DUST, Models.GENERATED);
         itemModelGenerator.register(ModItems.BRONZE_INGOT, Models.GENERATED);
-        itemModelGenerator.register(ModItems.CHISEL, Models.GENERATED);
+        itemModelGenerator.register(ModItems.CHISEL, Models.HANDHELD);
         itemModelGenerator.register(ModItems.BRONZE_NUGGET, Models.GENERATED);
         itemModelGenerator.register(ModItems.COPPER_DUST, Models.GENERATED);
         itemModelGenerator.register(ModItems.COPPER_NUGGET, Models.GENERATED);
         itemModelGenerator.register(ModItems.RAW_TIN, Models.GENERATED);
         itemModelGenerator.register(ModItems.TIN_DUST, Models.GENERATED);
         itemModelGenerator.register(ModItems.TIN_INGOT, Models.GENERATED);
+
+        itemModelGenerator.register(ModItems.BRONZE_SWORD, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.BRONZE_AXE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.BRONZE_PICKAXE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.BRONZE_SHOVEL, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.BRONZE_HOE, Models.HANDHELD);
+
+        itemModelGenerator.register(ModItems.TIN_SWORD, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.TIN_AXE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.TIN_PICKAXE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.TIN_SHOVEL, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.TIN_HOE, Models.HANDHELD);
+
+        itemModelGenerator.register(ModItems.COPPER_SWORD, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.COPPER_AXE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.COPPER_PICKAXE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.COPPER_SHOVEL, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.COPPER_HOE, Models.HANDHELD);
     }
 }
