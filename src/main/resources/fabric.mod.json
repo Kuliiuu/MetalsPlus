@@ -2,14 +2,14 @@
 	"schemaVersion": 1,
 	"id": "metalsplus",
 	"version": "${version}",
-	"name": "MetalsPlus",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"name": "Metals Plus",
+	"description": "A simple mod made around adding more metals to the game!",
 	"authors": [
 		"Kuliiuu/Marneyy_"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"homepage": "https://github.com/Kuliiuu/MetalsPlus",
+		"sources": "https://github.com/Kuliiuu/MetalsPlus"
 	},
 	"license": "MIT",
 	"icon": "assets/metalsplus/icon.png",
