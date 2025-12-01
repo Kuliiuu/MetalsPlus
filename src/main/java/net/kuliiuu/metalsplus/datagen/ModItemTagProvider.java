@@ -32,6 +32,7 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
         getOrCreateTagBuilder(ItemTags.PICKAXES)
                 .add(ModItems.BRONZE_PICKAXE)
                 .add(ModItems.COPPER_PICKAXE)
+                .add(ModItems.BRONZE_HAMMER)
                 .add(ModItems.TIN_PICKAXE);
 
         getOrCreateTagBuilder(ItemTags.SHOVELS)
@@ -59,5 +60,25 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
                 .add(ModItems.COPPER_CHESTPLATE)
                 .add(ModItems.COPPER_LEGGINGS)
                 .add(ModItems.COPPER_BOOTS);
+
+        getOrCreateTagBuilder(ItemTags.HEAD_ARMOR)
+                .add(ModItems.BRONZE_HELMET)
+                .add(ModItems.TIN_HELMET)
+                .add(ModItems.COPPER_HELMET);
+
+        getOrCreateTagBuilder(ItemTags.FOOT_ARMOR)
+                .add(ModItems.BRONZE_BOOTS)
+                .add(ModItems.TIN_BOOTS)
+                .add(ModItems.COPPER_BOOTS);
+
+        getOrCreateTagBuilder(ItemTags.CHEST_ARMOR)
+                .add(ModItems.BRONZE_CHESTPLATE)
+                .add(ModItems.TIN_CHESTPLATE)
+                .add(ModItems.COPPER_CHESTPLATE);
+
+        getOrCreateTagBuilder(ItemTags.LEG_ARMOR)
+                .add(ModItems.BRONZE_LEGGINGS)
+                .add(ModItems.TIN_LEGGINGS)
+                .add(ModItems.COPPER_LEGGINGS);
     }
 }

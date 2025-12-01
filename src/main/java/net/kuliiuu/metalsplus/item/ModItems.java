@@ -78,8 +78,7 @@ public class ModItems {
             new ShovelItem(ModToolMaterials.BRONZE, new Item.Settings()
                     .attributeModifiers(ShovelItem.createAttributeModifiers(ModToolMaterials.BRONZE,1.5f, -3f))));
     public static final Item BRONZE_HOE = registerItem("bronze_hoe",
-            new HoeItem(ModToolMaterials.BRONZE, new Item.Settings()
-                    .attributeModifiers(HoeItem.createAttributeModifiers(ModToolMaterials.BRONZE,0, -3))));
+            new HoeItem(ModToolMaterials.BRONZE, new Item.Settings().attributeModifiers(HoeItem.createAttributeModifiers(ModToolMaterials.BRONZE,0, -3))));
 
     public static final Item TIN_SWORD = registerItem("tin_sword",
             new SwordItem(ModToolMaterials.TIN, new Item.Settings()
