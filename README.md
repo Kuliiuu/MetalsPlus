@@ -63,11 +63,10 @@ Lignite Coal Related
 
 ## TODO
 - Add textures for all new items and blocks - DONE
-- Implement full tin tool and armor stats  
+- Implement full tin tool and armor stats - DONE
 - Add bronze alloying recipe - DONE
-- Add the mining-related structure  
 - Add loot tables for new items - DONE  
-- Add world generation for Tin Ore and Lignite Coal
+- Add world generation for Tin Ore and Lignite Coal - DONE
 
 
 ## Contributing
