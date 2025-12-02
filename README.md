@@ -4,7 +4,7 @@ MetalsPlus is a lightweight and expandable Fabric mod for Minecraft 1.21.1 that 
 
 ## Why?
 
-This mod is made as my project for my thesis. If you have some feedback, please contact me: @marneyy_
+I always wanted to mod Minecraft, we all start somewhere. If you have any feedback: @marneyy_
 
 
 ## Translation
