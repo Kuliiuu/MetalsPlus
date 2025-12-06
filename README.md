@@ -4,7 +4,7 @@ MetalsPlus is a lightweight and expandable Fabric mod for Minecraft 1.21.1 that 
 
 ## Why?
 
-This mod is made as my project for my thesis. If you have some feedback, please contact me: @marneyy_
+I always wanted to mod Minecraft, we all start somewhere. If you have any feedback: @marneyy_
 
 
 ## Translation
@@ -63,11 +63,10 @@ Lignite Coal Related
 
 ## TODO
 - Add textures for all new items and blocks - DONE
-- Implement full tin tool and armor stats  
+- Implement full tin tool and armor stats - DONE
 - Add bronze alloying recipe - DONE
-- Add the mining-related structure  
 - Add loot tables for new items - DONE  
-- Add world generation for Tin Ore and Lignite Coal
+- Add world generation for Tin Ore and Lignite Coal - DONE
 
 
 ## Contributing
