@@ -38,11 +38,12 @@ public class ModBlocks {
                     .requiresTool()
                     .sounds(BlockSoundGroup.METAL)));
 
-    public static final Block LIGNITE_COAL_BLOCK = registerBlock("lignite_coal_block", new TinBooster(
+    public static final Block LIGNITE_COAL_BLOCK = registerBlock("lignite_coal_block", new Block(
             AbstractBlock.Settings.create()
-                    .strength(3f, 3f)
+                    .strength(3, 3)
                     .requiresTool()
                     .sounds(BlockSoundGroup.STONE)));
+
 
 
 
