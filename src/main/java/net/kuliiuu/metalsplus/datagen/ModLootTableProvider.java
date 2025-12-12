@@ -35,6 +35,9 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.TIN_ORE, oreDrops(ModBlocks.TIN_ORE, ModItems.RAW_TIN));
         addDrop(ModBlocks.DEEPSLATE_TIN_ORE, oreDrops(ModBlocks.DEEPSLATE_TIN_ORE, ModItems.RAW_TIN));
 
+        addDrop(ModBlocks.OSMIUM_ORE, oreDrops(ModBlocks.OSMIUM_ORE, ModItems.RAW_OSMIUM));
+        addDrop(ModBlocks.DEEPSLATE_OSMIUM_ORE, oreDrops(ModBlocks.DEEPSLATE_OSMIUM_ORE, ModItems.RAW_OSMIUM));
+
         addDrop(ModBlocks.LIGNITE_COAL_ORE, multipleOreDrops(ModBlocks.LIGNITE_COAL_ORE, ModItems.LIGNITE_COAL, 1, 3));
         addDrop(ModBlocks.DEEPSLATE_LIGNITE_COAL_ORE, multipleOreDrops(ModBlocks.DEEPSLATE_LIGNITE_COAL_ORE, ModItems.LIGNITE_COAL, 1, 3));
     }

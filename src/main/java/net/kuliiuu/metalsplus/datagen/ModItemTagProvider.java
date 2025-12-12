@@ -22,27 +22,33 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
         getOrCreateTagBuilder(ItemTags.SWORDS)
                 .add(ModItems.BRONZE_SWORD)
                 .add(ModItems.COPPER_SWORD)
+                .add(ModItems.OSMIUM_SWORD)
                 .add(ModItems.TIN_SWORD);
 
         getOrCreateTagBuilder(ItemTags.AXES)
                 .add(ModItems.BRONZE_AXE)
                 .add(ModItems.COPPER_AXE)
+                .add(ModItems.OSMIUM_AXE)
                 .add(ModItems.TIN_AXE);
 
         getOrCreateTagBuilder(ItemTags.PICKAXES)
                 .add(ModItems.BRONZE_PICKAXE)
                 .add(ModItems.COPPER_PICKAXE)
                 .add(ModItems.BRONZE_HAMMER)
+                .add(ModItems.OSMIUM_HAMMER)
+                .add(ModItems.OSMIUM_PICKAXE)
                 .add(ModItems.TIN_PICKAXE);
 
         getOrCreateTagBuilder(ItemTags.SHOVELS)
                 .add(ModItems.BRONZE_SHOVEL)
                 .add(ModItems.COPPER_SHOVEL)
+                .add(ModItems.OSMIUM_SHOVEL)
                 .add(ModItems.TIN_SHOVEL);
 
         getOrCreateTagBuilder(ItemTags.HOES)
                 .add(ModItems.BRONZE_HOE)
                 .add(ModItems.COPPER_HOE)
+                .add(ModItems.OSMIUM_HOE)
                 .add(ModItems.TIN_HOE);
 
         getOrCreateTagBuilder(ItemTags.TRIMMABLE_ARMOR)
@@ -59,26 +65,35 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
                 .add(ModItems.COPPER_HELMET)
                 .add(ModItems.COPPER_CHESTPLATE)
                 .add(ModItems.COPPER_LEGGINGS)
-                .add(ModItems.COPPER_BOOTS);
+                .add(ModItems.COPPER_BOOTS)
+
+                .add(ModItems.OSMIUM_HELMET)
+                .add(ModItems.OSMIUM_CHESTPLATE)
+                .add(ModItems.OSMIUM_LEGGINGS)
+                .add(ModItems.OSMIUM_BOOTS);
 
         getOrCreateTagBuilder(ItemTags.HEAD_ARMOR)
                 .add(ModItems.BRONZE_HELMET)
                 .add(ModItems.TIN_HELMET)
+                .add(ModItems.OSMIUM_HELMET)
                 .add(ModItems.COPPER_HELMET);
 
         getOrCreateTagBuilder(ItemTags.FOOT_ARMOR)
                 .add(ModItems.BRONZE_BOOTS)
                 .add(ModItems.TIN_BOOTS)
+                .add(ModItems.OSMIUM_BOOTS)
                 .add(ModItems.COPPER_BOOTS);
 
         getOrCreateTagBuilder(ItemTags.CHEST_ARMOR)
                 .add(ModItems.BRONZE_CHESTPLATE)
                 .add(ModItems.TIN_CHESTPLATE)
+                .add(ModItems.OSMIUM_CHESTPLATE)
                 .add(ModItems.COPPER_CHESTPLATE);
 
         getOrCreateTagBuilder(ItemTags.LEG_ARMOR)
                 .add(ModItems.BRONZE_LEGGINGS)
                 .add(ModItems.TIN_LEGGINGS)
+                .add(ModItems.OSMIUM_LEGGINGS)
                 .add(ModItems.COPPER_LEGGINGS);
     }
 }

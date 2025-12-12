@@ -33,7 +33,9 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.TIN_BLOCK)
                 .add(ModBlocks.TIN_BOOSTER)
                 .add(ModBlocks.TIN_ORE)
-                .add(ModBlocks.DEEPSLATE_LIGNITE_COAL_ORE);
+                .add(ModBlocks.DEEPSLATE_LIGNITE_COAL_ORE)
+                .add(ModBlocks.OSMIUM_ORE)
+                .add(ModBlocks.DEEPSLATE_OSMIUM_ORE);
 
         getOrCreateTagBuilder(BlockTags.NEEDS_STONE_TOOL)
                 .add(ModBlocks.BRONZE_BLOCK)
@@ -45,6 +47,15 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.TIN_BOOSTER)
                 .add(ModBlocks.TIN_ORE)
                 .add(ModBlocks.DEEPSLATE_LIGNITE_COAL_ORE);
+
+        getOrCreateTagBuilder(BlockTags.NEEDS_DIAMOND_TOOL)
+                .add(ModBlocks.OSMIUM_BLOCK)
+                .add(ModBlocks.OSMIUM_ORE)
+                .add(ModBlocks.RAW_OSMIUM_BLOCK)
+                .add(ModBlocks.DEEPSLATE_OSMIUM_ORE);
+
+        getOrCreateTagBuilder(ModTags.Blocks.NEEDS_OSMIUM_TOOL)
+                .addTag(BlockTags.NEEDS_DIAMOND_TOOL);
 
         getOrCreateTagBuilder(ModTags.Blocks.FUEL_BLOCKS)
                 .add(ModBlocks.LIGNITE_COAL_BLOCK);

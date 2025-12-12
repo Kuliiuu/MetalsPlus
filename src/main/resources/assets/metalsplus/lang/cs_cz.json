@@ -46,6 +46,27 @@
   "item.metalsplus.copper_boots": "Měděné boty",
 
 
+  "item.metalsplus.osmium_ingot": "Osmiový ingot",
+  "item.metalsplus.osmium_nugget": "Osmiová nugeta",
+  "item.metalsplus.raw_osmium": "Vytěžené osmium",
+
+  "item.metalsplus.osmium_helmet": "Osmiová helma",
+  "item.metalsplus.osmium_chestplate": "Osmiové brnění",
+  "item.metalsplus.osmium_leggings": "Osmiové kalhoty",
+  "item.metalsplus.osmium_boots": "Osmiové boty",
+
+  "item.metalsplus.osmium_sword": "Osmiový meč",
+  "item.metalsplus.osmium_axe": "Osmiová sekera",
+  "item.metalsplus.osmium_pickaxe": "Osmiový krumpáč",
+  "item.metalsplus.osmium_shovel": "Osmiová lopata",
+  "item.metalsplus.osmium_hoe": "Osmiová motyka",
+  "item.metalsplus.osmium_hammer": "Osmiové kladivo",
+
+  "block.metalsplus.osmium_ore": "Osmiová ruda",
+  "block.metalsplus.deepslate_osmium_ore": "Hlubinná osmiová ruda",
+  "block.metalsplus.raw_osmium_block": "Blok vytěženého osmia",
+  "block.metalsplus.osmium_block": "Blok osmia",
+
   "block.metalsplus.tin_block": "Blok cínu",
   "block.metalsplus.bronze_block": "Blok bronzu",
   "block.metalsplus.deepslate_tin_ore": "Hlubinná cínová ruda",
@@ -58,6 +79,12 @@
 
 
   "itemgroup.metalsplus.metal_plus_items": "MetalsPlus Itemy",
-  "itemgroup.metalsplus.metal_plus_blocks": "MetalsPlus Bloky"
+  "itemgroup.metalsplus.metal_plus_blocks": "MetalsPlus Bloky",
+
+  "tooltip.metalsplus.tin_booster.tooltip": "Při stání na tomto bloku dostanete §eSPĚCH§r!",
+  "tooltip.metalsplus.hammer.tooltip": "Podrž §9[§eSHIFT§9]§r pro více informací!",
+  "tooltip.metalsplus.hammer.shift.tooltip": "Je schopen těžit 3x3 plochu.",
+  "tooltip.metalsplus.chisel.shift.tooltip": "Oddělává mech z bloků a může bloky i nakřápnout.",
+  "tooltip.metalsplus.chisel.tooltip": "Podrž §9[§eSHIFT§9]§r pro více informací!"
 
 }

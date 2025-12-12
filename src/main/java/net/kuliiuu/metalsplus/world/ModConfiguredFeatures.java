@@ -17,7 +17,7 @@ public class ModConfiguredFeatures {
 
     public static final RegistryKey<ConfiguredFeature<?, ?>> TIN_ORE_KEY = registerKey("tin_ore");
     public static final RegistryKey<ConfiguredFeature<?, ?>> LIGNITE_COAL_ORE_KEY = registerKey("lignite_coal_ore");
-    // public static final RegistryKey<ConfiguredFeature<?, ?>> OSMIUM_ORE_KEY = registerKey("osmium_ore");
+    public static final RegistryKey<ConfiguredFeature<?, ?>> OSMIUM_ORE_KEY = registerKey("osmium_ore");
 
     public static void bootstrap(Registerable<ConfiguredFeature<?, ?>> context) {
         RuleTest stoneReplaceables = new TagMatchRuleTest(BlockTags.STONE_ORE_REPLACEABLES);
@@ -31,14 +31,13 @@ public class ModConfiguredFeatures {
                 List.of(OreFeatureConfig.createTarget(stoneReplaceables, ModBlocks.LIGNITE_COAL_ORE.getDefaultState()),
                         OreFeatureConfig.createTarget(deepslateReplaceables, ModBlocks.DEEPSLATE_LIGNITE_COAL_ORE.getDefaultState()));
 
-        /* List<OreFeatureConfig.Target> overworldOsmiumOres =
+        List<OreFeatureConfig.Target> overworldOsmiumOres =
                 List.of(OreFeatureConfig.createTarget(stoneReplaceables, ModBlocks.OSMIUM_ORE.getDefaultState()),
                         OreFeatureConfig.createTarget(deepslateReplaceables, ModBlocks.DEEPSLATE_OSMIUM_ORE.getDefaultState()));
-         */
 
         register(context, TIN_ORE_KEY, Feature.ORE, new OreFeatureConfig(overworldTinOres, 6));
         register(context, LIGNITE_COAL_ORE_KEY, Feature.ORE, new OreFeatureConfig(overworldLigniteCoalOres, 10));
-        // register(context, OSMIUM_ORE_KEY, Feature.ORE, new OreFeatureConfig(overworldOsmiumOres, 4));
+        register(context, OSMIUM_ORE_KEY, Feature.ORE, new OreFeatureConfig(overworldOsmiumOres, 4));
     }
 
     public static RegistryKey<ConfiguredFeature<?, ?>> registerKey(String name) {

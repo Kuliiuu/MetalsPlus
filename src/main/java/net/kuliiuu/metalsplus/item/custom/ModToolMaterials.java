@@ -16,6 +16,7 @@ import java.util.function.Supplier;
 public enum ModToolMaterials implements ToolMaterial {
     TIN(ModTags.Blocks.INCORRECT_FOR_TIN_TOOL, 140, 6.5F, 1.0F, 9, () -> Ingredient.ofItems(ModItems.TIN_INGOT)),
     COPPER(ModTags.Blocks.INCORRECT_FOR_COPPER_TOOL, 190, 3.0F, 1.0F, 22, () -> Ingredient.ofItems(Items.COPPER_INGOT)),
+    OSMIUM(ModTags.Blocks.INCORRECT_FOR_OSMIUM_TOOL, 3045, 10.0F, 5.0F, 20, () -> Ingredient.ofItems(ModItems.OSMIUM_INGOT)),
     BRONZE(ModTags.Blocks.INCORRECT_FOR_BRONZE_TOOL, 225, 5.0F, 1.5F, 14, () -> Ingredient.ofItems(ModItems.BRONZE_INGOT));
 
     private final TagKey<Block> inverseTag;

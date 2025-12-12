@@ -17,14 +17,19 @@ public class ModModelProvider extends FabricModelProvider {
     @Override
     public void generateBlockStateModels(BlockStateModelGenerator blockStateModelGenerator) {
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.DEEPSLATE_TIN_ORE);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.TIN_ORE);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.RAW_TIN_BLOCK);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.TIN_BLOCK);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.LIGNITE_COAL_ORE);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.TIN_BOOSTER);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.DEEPSLATE_LIGNITE_COAL_ORE);
-        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.TIN_ORE);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.LIGNITE_COAL_BLOCK);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.BRONZE_BLOCK);
+
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.DEEPSLATE_OSMIUM_ORE);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.OSMIUM_ORE);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.OSMIUM_BLOCK);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.RAW_OSMIUM_BLOCK);
     }
 
     @Override
@@ -74,5 +79,22 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.registerArmor(((ArmorItem) ModItems.COPPER_CHESTPLATE));
         itemModelGenerator.registerArmor(((ArmorItem) ModItems.COPPER_LEGGINGS));
         itemModelGenerator.registerArmor(((ArmorItem) ModItems.COPPER_BOOTS));
+
+
+        itemModelGenerator.register(ModItems.OSMIUM_INGOT, Models.GENERATED);
+        itemModelGenerator.register(ModItems.OSMIUM_NUGGET, Models.GENERATED);
+        itemModelGenerator.register(ModItems.RAW_OSMIUM, Models.GENERATED);
+
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.OSMIUM_HELMET));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.OSMIUM_CHESTPLATE));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.OSMIUM_LEGGINGS));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.OSMIUM_BOOTS));
+
+        itemModelGenerator.register(ModItems.OSMIUM_SWORD, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.OSMIUM_AXE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.OSMIUM_PICKAXE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.OSMIUM_SHOVEL, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.OSMIUM_HOE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.OSMIUM_HAMMER, Models.HANDHELD);
     }
 }

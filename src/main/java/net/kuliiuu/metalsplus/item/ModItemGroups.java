@@ -62,6 +62,22 @@ public class ModItemGroups {
                         entries.add(ModItems.COPPER_CHESTPLATE);
                         entries.add(ModItems.COPPER_LEGGINGS);
                         entries.add(ModItems.COPPER_BOOTS);
+
+                        entries.add(ModItems.OSMIUM_INGOT);
+                        entries.add(ModItems.OSMIUM_NUGGET);
+                        entries.add(ModItems.RAW_OSMIUM);
+
+                        entries.add(ModItems.OSMIUM_SWORD);
+                        entries.add(ModItems.OSMIUM_AXE);
+                        entries.add(ModItems.OSMIUM_PICKAXE);
+                        entries.add(ModItems.OSMIUM_SHOVEL);
+                        entries.add(ModItems.OSMIUM_HOE);
+                        entries.add(ModItems.OSMIUM_HAMMER);
+
+                        entries.add(ModItems.OSMIUM_HELMET);
+                        entries.add(ModItems.OSMIUM_CHESTPLATE);
+                        entries.add(ModItems.OSMIUM_LEGGINGS);
+                        entries.add(ModItems.OSMIUM_BOOTS);
                     }).build());
 
     public static final ItemGroup METAL_PLUS_BLOCKS_GROUP = Registry.register(Registries.ITEM_GROUP,
@@ -78,6 +94,11 @@ public class ModItemGroups {
                         entries.add(ModBlocks.DEEPSLATE_LIGNITE_COAL_ORE);
                         entries.add(ModBlocks.LIGNITE_COAL_ORE);
                         entries.add(ModBlocks.LIGNITE_COAL_BLOCK);
+
+                        entries.add(ModBlocks.OSMIUM_ORE);
+                        entries.add(ModBlocks.DEEPSLATE_OSMIUM_ORE);
+                        entries.add(ModBlocks.RAW_OSMIUM_BLOCK);
+                        entries.add(ModBlocks.OSMIUM_BLOCK);
                     }).build());
 
     public static void registerItemGroups() {

@@ -1,4 +1,5 @@
-// 1.21.1	2025-12-02T17:46:24.1599025	Metals Plus/Block Loot Tables
+// 1.21.1	2025-12-12T18:18:02.5554148	Metals Plus/Block Loot Tables
+7e26370be8d64505bfce82f87e8e31865dbb376b data\metalsplus\loot_table\blocks\osmium_ore.json
 3968f9b7397ffb8e6ed4f18b59924e7f8270c40a data\metalsplus\loot_table\blocks\deepslate_tin_ore.json
 69c2be389631efd351e522565aad6f7e99a51b54 data\metalsplus\loot_table\blocks\tin_booster.json
 9390408ec1692a5d2074c1b7b0ec24d0aaa0612e data\metalsplus\loot_table\blocks\tin_block.json
@@ -7,4 +8,5 @@ a6fb92384f52ec97664ada2b0033cb5a47ec6e80 data\metalsplus\loot_table\blocks\raw_t
 14997d199ddfacdbeb517a72bafa199fa465a3de data\metalsplus\loot_table\blocks\bronze_block.json
 eaeab25110524697cda6d4a93686957257d1ff19 data\metalsplus\loot_table\blocks\tin_ore.json
 383953be31582c8d85baedc259b0687801b8ee9d data\metalsplus\loot_table\blocks\deepslate_lignite_coal_ore.json
+578603d98b016aa82b98c89ef2f79492e3379af7 data\metalsplus\loot_table\blocks\deepslate_osmium_ore.json
 8c4b373334520146377547d3bc37a5aeb3069f99 data\metalsplus\loot_table\blocks\lignite_coal_ore.json

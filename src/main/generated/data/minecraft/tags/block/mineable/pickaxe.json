@@ -8,6 +8,8 @@
     "metalsplus:tin_block",
     "metalsplus:tin_booster",
     "metalsplus:tin_ore",
-    "metalsplus:deepslate_lignite_coal_ore"
+    "metalsplus:deepslate_lignite_coal_ore",
+    "metalsplus:osmium_ore",
+    "metalsplus:deepslate_osmium_ore"
   ]
 }

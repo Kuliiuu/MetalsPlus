@@ -46,6 +46,27 @@
   "item.metalsplus.copper_boots": "Copper Boots",
 
 
+  "item.metalsplus.osmium_ingot": "Osmium Ingot",
+  "item.metalsplus.osmium_nugget": "Osmium Nugget",
+  "item.metalsplus.raw_osmium": "Raw Osmium",
+
+  "item.metalsplus.osmium_helmet": "Osmium Helmet",
+  "item.metalsplus.osmium_chestplate": "Osmium Chestplate",
+  "item.metalsplus.osmium_leggings": "Osmium Leggings",
+  "item.metalsplus.osmium_boots": "Osmium Boots",
+
+  "item.metalsplus.osmium_sword": "Osmium Sword",
+  "item.metalsplus.osmium_axe": "Osmium Axe",
+  "item.metalsplus.osmium_pickaxe": "Osmium Pickaxe",
+  "item.metalsplus.osmium_shovel": "Osmium Shovel",
+  "item.metalsplus.osmium_hoe": "Osmium Hoe",
+  "item.metalsplus.osmium_hammer": "Osmium Hammer",
+
+  "block.metalsplus.osmium_ore": "Osmium Ore",
+  "block.metalsplus.deepslate_osmium_ore": "Deepslate Osmium Ore",
+  "block.metalsplus.raw_osmium_block": "Block of Raw Osmium",
+  "block.metalsplus.osmium_block": "Block of Osmium",
+
   "block.metalsplus.tin_block": "Block of Tin",
   "block.metalsplus.bronze_block": "Block of Bronze",
   "block.metalsplus.deepslate_tin_ore": "Deepslate Tin Ore",
@@ -58,5 +79,11 @@
 
 
   "itemgroup.metalsplus.metal_plus_items": "MetalsPlus Items",
-  "itemgroup.metalsplus.metal_plus_blocks": "MetalsPlus Blocks"
+  "itemgroup.metalsplus.metal_plus_blocks": "MetalsPlus Blocks",
+
+  "tooltip.metalsplus.tin_booster.tooltip": "When standing on this block gives you §eHASTE§r!",
+  "tooltip.metalsplus.hammer.tooltip": "Press §9[§eSHIFT§9]§r for more Information!",
+  "tooltip.metalsplus.hammer.shift.tooltip": "Is able to mine a 3x3 area.",
+  "tooltip.metalsplus.chisel.shift.tooltip": "Removes moss from blocks and is able to crack blocks.",
+  "tooltip.metalsplus.chisel.tooltip": "Press §9[§eSHIFT§9]§r for more Information!"
 }

@@ -21,6 +21,30 @@ public class ModItems {
     public static final Item TIN_INGOT = registerItem("tin_ingot", new Item(new Item.Settings()));
     public static final Item LIGNITE_COAL = registerItem("lignite_coal", new Item(new Item.Settings()));
 
+
+
+    public static final Item OSMIUM_INGOT = registerItem("osmium_ingot", new Item(new Item.Settings()));
+    public static final Item OSMIUM_NUGGET = registerItem("osmium_nugget", new Item(new Item.Settings()));
+    public static final Item RAW_OSMIUM = registerItem("raw_osmium", new Item(new Item.Settings()));
+
+    public static final Item OSMIUM_SWORD = registerItem("osmium_sword",
+            new SwordItem(ModToolMaterials.OSMIUM, new Item.Settings()
+                    .attributeModifiers(SwordItem.createAttributeModifiers(ModToolMaterials.OSMIUM,3, -2.4f))));
+    public static final Item OSMIUM_AXE = registerItem("osmium_axe",
+            new AxeItem(ModToolMaterials.OSMIUM, new Item.Settings()
+                    .attributeModifiers(AxeItem.createAttributeModifiers(ModToolMaterials.OSMIUM,6, -3.2f))));
+    public static final Item OSMIUM_PICKAXE = registerItem("osmium_pickaxe",
+            new PickaxeItem(ModToolMaterials.OSMIUM, new Item.Settings()
+                    .attributeModifiers(PickaxeItem.createAttributeModifiers(ModToolMaterials.OSMIUM,1, -2.8f))));
+    public static final Item OSMIUM_HAMMER = registerItem("osmium_hammer",
+            new HammerItem(ModToolMaterials.OSMIUM, new Item.Settings()
+                    .attributeModifiers(PickaxeItem.createAttributeModifiers(ModToolMaterials.OSMIUM,3, -3.5f))));
+    public static final Item OSMIUM_SHOVEL = registerItem("osmium_shovel",
+            new ShovelItem(ModToolMaterials.OSMIUM, new Item.Settings()
+                    .attributeModifiers(ShovelItem.createAttributeModifiers(ModToolMaterials.OSMIUM,1.5f, -3f))));
+    public static final Item OSMIUM_HOE = registerItem("osmium_hoe",
+            new HoeItem(ModToolMaterials.OSMIUM, new Item.Settings().attributeModifiers(HoeItem.createAttributeModifiers(ModToolMaterials.OSMIUM,0, -3))));
+
     public static final Item CHISEL = registerItem("chisel", new ChiselItem(new Item.Settings().maxDamage(50)));
 
     public static final Item BRONZE_HELMET = registerItem("bronze_helmet",
@@ -35,6 +59,19 @@ public class ModItems {
     public static final Item BRONZE_BOOTS = registerItem("bronze_boots",
             new ArmorItem(ModArmorMaterials.BRONZE_ARMOR_MATERIAL, ArmorItem.Type.BOOTS, new Item.Settings()
                     .maxDamage(ArmorItem.Type.BOOTS.getMaxDamage(12))));
+
+    public static final Item OSMIUM_HELMET = registerItem("osmium_helmet",
+            new ArmorItem(ModArmorMaterials.OSMIUM_ARMOR_MATERIAL, ArmorItem.Type.HELMET, new Item.Settings()
+                    .maxDamage(ArmorItem.Type.HELMET.getMaxDamage(55))));
+    public static final Item OSMIUM_CHESTPLATE = registerItem("osmium_chestplate",
+            new ArmorItem(ModArmorMaterials.OSMIUM_ARMOR_MATERIAL, ArmorItem.Type.CHESTPLATE, new Item.Settings()
+                    .maxDamage(ArmorItem.Type.CHESTPLATE.getMaxDamage(55))));
+    public static final Item OSMIUM_LEGGINGS = registerItem("osmium_leggings",
+            new ArmorItem(ModArmorMaterials.OSMIUM_ARMOR_MATERIAL, ArmorItem.Type.LEGGINGS, new Item.Settings()
+                    .maxDamage(ArmorItem.Type.LEGGINGS.getMaxDamage(55))));
+    public static final Item OSMIUM_BOOTS = registerItem("osmium_boots",
+            new ArmorItem(ModArmorMaterials.OSMIUM_ARMOR_MATERIAL, ArmorItem.Type.BOOTS, new Item.Settings()
+                    .maxDamage(ArmorItem.Type.BOOTS.getMaxDamage(55))));
 
     public static final Item TIN_HELMET = registerItem("tin_helmet",
             new ArmorItem(ModArmorMaterials.TIN_ARMOR_MATERIAL, ArmorItem.Type.HELMET, new Item.Settings()

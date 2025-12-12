@@ -31,6 +31,16 @@ public class ModBlocks {
                     .strength(3.5f, 4f)
                     .requiresTool()
                     .sounds(BlockSoundGroup.STONE)));
+    public static final Block OSMIUM_BLOCK = registerBlock("osmium_block", new Block(
+            AbstractBlock.Settings.create()
+                    .strength(60f, 600f)
+                    .requiresTool()
+                    .sounds(BlockSoundGroup.METAL)));
+    public static final Block RAW_OSMIUM_BLOCK = registerBlock("raw_osmium_block", new Block(
+            AbstractBlock.Settings.create()
+                    .strength(65f, 600f)
+                    .requiresTool()
+                    .sounds(BlockSoundGroup.METAL)));
 
     public static final Block TIN_BOOSTER = registerBlock("tin_booster", new TinBooster(
             AbstractBlock.Settings.create()
@@ -60,6 +70,12 @@ public class ModBlocks {
     public static final Block LIGNITE_COAL_ORE = registerBlock("lignite_coal_ore", new ExperienceDroppingBlock(
             UniformIntProvider.create(2, 5),
             AbstractBlock.Settings.create().strength(4.5f, 3f).requiresTool().sounds(BlockSoundGroup.STONE)));
+    public static final Block DEEPSLATE_OSMIUM_ORE = registerBlock("deepslate_osmium_ore", new ExperienceDroppingBlock(
+            UniformIntProvider.create(2, 5),
+            AbstractBlock.Settings.create().strength(35f, 600f).requiresTool().sounds(BlockSoundGroup.DEEPSLATE)));
+    public static final Block OSMIUM_ORE = registerBlock("osmium_ore", new ExperienceDroppingBlock(
+            UniformIntProvider.create(2, 5),
+            AbstractBlock.Settings.create().strength(45f, 600f).requiresTool().sounds(BlockSoundGroup.STONE)));
 
 
     private static Block registerBlock(String name, Block block) {

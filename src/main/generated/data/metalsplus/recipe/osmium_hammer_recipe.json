@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "B": {
+      "item": "metalsplus:osmium_ingot"
+    },
+    "D": {
+      "item": "metalsplus:osmium_block"
+    },
+    "N": {
+      "item": "minecraft:netherite_ingot"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    "DND",
+    " S ",
+    " B "
+  ],
+  "result": {
+    "count": 1,
+    "id": "metalsplus:osmium_hammer"
+  }
+}

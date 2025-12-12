@@ -52,6 +52,16 @@ public class ModArmorMaterials {
             }), 20, SoundEvents.ITEM_ARMOR_EQUIP_IRON, () -> Ingredient.ofItems(Items.COPPER_INGOT),
                     List.of(new ArmorMaterial.Layer(Identifier.of(MetalsPlus.MOD_ID, "copper"))), 0,0));
 
+    public static final RegistryEntry<ArmorMaterial> OSMIUM_ARMOR_MATERIAL = registerArmorMaterials("osmium",
+            ()-> new ArmorMaterial(Util.make(new EnumMap<>(ArmorItem.Type.class), map -> {
+                map.put(ArmorItem.Type.BOOTS, 5);
+                map.put(ArmorItem.Type.LEGGINGS, 8);
+                map.put(ArmorItem.Type.CHESTPLATE, 10);
+                map.put(ArmorItem.Type.HELMET, 5);
+                map.put(ArmorItem.Type.BODY, 14);
+            }), 20, SoundEvents.ITEM_ARMOR_EQUIP_NETHERITE, () -> Ingredient.ofItems(ModItems.OSMIUM_INGOT),
+                    List.of(new ArmorMaterial.Layer(Identifier.of(MetalsPlus.MOD_ID, "osmium"))), 4.2f,0.15f));
+
     public static RegistryEntry<ArmorMaterial> registerArmorMaterials(String name, Supplier<ArmorMaterial> material) {
         return Registry.registerReference(Registries.ARMOR_MATERIAL, Identifier.of(MetalsPlus.MOD_ID, name), material.get());
     }
