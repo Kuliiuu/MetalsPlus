@@ -41,6 +41,13 @@ Bronze Related
 - 3x3 Hammer
 - Armor Set
 
+Osmium Related
+- Osmium Ingot
+- Osmium Block
+- Tools
+- 3x3 Hammer
+- Armor Set
+
 Lignite Coal Related
 - Ligntie Coal Ore (deepslate and normal version)
 - Lignite Coal
