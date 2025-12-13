@@ -21,7 +21,11 @@ public class ModItems {
     public static final Item TIN_INGOT = registerItem("tin_ingot", new Item(new Item.Settings()));
     public static final Item LIGNITE_COAL = registerItem("lignite_coal", new Item(new Item.Settings()));
 
+    public static final Item BRONZE_BOW = registerItem("bronze_bow",
+            new BowItem(new Item.Settings().maxDamage(250)));
 
+    public static final Item OSMIUM_BOW = registerItem("osmium_bow",
+            new BowItem(new Item.Settings().maxDamage(1500)));
 
     public static final Item OSMIUM_INGOT = registerItem("osmium_ingot", new Item(new Item.Settings()));
     public static final Item OSMIUM_NUGGET = registerItem("osmium_nugget", new Item(new Item.Settings()));

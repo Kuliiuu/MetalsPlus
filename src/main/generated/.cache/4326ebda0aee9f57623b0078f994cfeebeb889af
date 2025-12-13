@@ -1,4 +1,4 @@
-// 1.21.1	2025-12-12T18:18:02.5554148	Metals Plus/Model Definitions
+// 1.21.1	2025-12-13T18:30:49.8611384	Metals Plus/Model Definitions
 b5137c00b83b9df8b179398b36a6dc50bce6ae66 assets\metalsplus\models\item\bronze_ingot.json
 f4acf28be244c29e207e50929cb9f24d936c7af9 assets\metalsplus\models\item\tin_dust.json
 bf7575ae4a4aa8939ca22dab783f409787af1d18 assets\metalsplus\models\item\copper_helmet_netherite_trim.json
@@ -125,8 +125,8 @@ beedb2d30cbe273059840f3e91ca453111ce8808 assets\metalsplus\models\item\bronze_sw
 db81d500b26ec767b8c20f298921bff7ea784d1b assets\metalsplus\models\item\osmium_leggings_lapis_trim.json
 35be2efb92ec73c69874fd2fc2a301293dc0de5b assets\metalsplus\models\item\tin_helmet_quartz_trim.json
 ab9c9161889dd608d27e0356b00a609afdc10b65 assets\metalsplus\models\item\bronze_helmet_iron_trim.json
-891cfca36db5a8bb93eb3f875f38ec417819b2bb assets\metalsplus\models\item\osmium_chestplate_emerald_trim.json
 6bf65e617d80b1d5a8605f654af76c03f6983cbc assets\metalsplus\models\item\osmium_leggings_netherite_trim.json
+891cfca36db5a8bb93eb3f875f38ec417819b2bb assets\metalsplus\models\item\osmium_chestplate_emerald_trim.json
 f8d6ebb0aafa24d50716f620de6d4af8d2b79727 assets\metalsplus\models\item\tin_sword.json
 f0ef644540a06035207c770b35f98adb5dbae14b assets\metalsplus\models\item\osmium_leggings_iron_trim.json
 da958b16dd73617e575e2b131cc027b1a17c5869 assets\metalsplus\models\item\osmium_boots_emerald_trim.json
