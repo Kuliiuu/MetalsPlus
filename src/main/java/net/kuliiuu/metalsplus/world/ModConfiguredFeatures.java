@@ -37,7 +37,7 @@ public class ModConfiguredFeatures {
 
         register(context, TIN_ORE_KEY, Feature.ORE, new OreFeatureConfig(overworldTinOres, 6));
         register(context, LIGNITE_COAL_ORE_KEY, Feature.ORE, new OreFeatureConfig(overworldLigniteCoalOres, 10));
-        register(context, OSMIUM_ORE_KEY, Feature.ORE, new OreFeatureConfig(overworldOsmiumOres, 4));
+        register(context, OSMIUM_ORE_KEY, Feature.ORE, new OreFeatureConfig(overworldOsmiumOres, 2));
     }
 
     public static RegistryKey<ConfiguredFeature<?, ?>> registerKey(String name) {

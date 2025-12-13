@@ -62,6 +62,9 @@
   "item.metalsplus.osmium_hoe": "Osmiová motyka",
   "item.metalsplus.osmium_hammer": "Osmiové kladivo",
 
+  "item.metalsplus.osmium_bow": "Osmiový luk",
+  "item.metalsplus.bronze_bow": "Bronzový luk",
+
   "block.metalsplus.osmium_ore": "Osmiová ruda",
   "block.metalsplus.deepslate_osmium_ore": "Hlubinná osmiová ruda",
   "block.metalsplus.raw_osmium_block": "Blok vytěženého osmia",
