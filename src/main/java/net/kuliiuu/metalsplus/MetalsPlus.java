@@ -8,6 +8,7 @@ import net.kuliiuu.metalsplus.block.ModBlocks;
 import net.kuliiuu.metalsplus.item.ModItemGroups;
 import net.kuliiuu.metalsplus.item.ModItems;
 import net.kuliiuu.metalsplus.util.HammerUsageEvent;
+import net.kuliiuu.metalsplus.util.ModModelPredicates;
 import net.kuliiuu.metalsplus.world.gen.ModWorldGeneration;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -21,6 +22,8 @@ public class MetalsPlus implements ModInitializer {
         ModItemGroups.registerItemGroups();
         ModItems.registerModItems();
         ModBlocks.registerModBlocks();
+
+        ModModelPredicates.registerModelPredicates();
 
         ModWorldGeneration.generateModWorldGen();
 

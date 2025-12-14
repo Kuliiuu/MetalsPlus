@@ -31,8 +31,8 @@ public class ModPlacedFeatures {
                 ModOrePlacement.modifiersWithCount(13,
                         HeightRangePlacementModifier.trapezoid(YOffset.fixed(-20), YOffset.fixed(280))));
         register(context, OSMIUM_ORE_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.OSMIUM_ORE_KEY),
-                ModOrePlacement.modifiersWithCount(3,
-                        HeightRangePlacementModifier.trapezoid(YOffset.fixed(-64), YOffset.fixed(-20))));
+                ModOrePlacement.modifiersWithCount(6,
+                        HeightRangePlacementModifier.trapezoid(YOffset.fixed(-64), YOffset.fixed(-38))));
 
     }
 

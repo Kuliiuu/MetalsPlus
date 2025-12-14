@@ -95,5 +95,9 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
                 .add(ModItems.TIN_LEGGINGS)
                 .add(ModItems.OSMIUM_LEGGINGS)
                 .add(ModItems.COPPER_LEGGINGS);
+
+        getOrCreateTagBuilder(ItemTags.BOW_ENCHANTABLE)
+                .add(ModItems.BRONZE_BOW)
+                .add(ModItems.OSMIUM_BOW);
     }
 }

@@ -57,6 +57,26 @@ public class ModRecipeProvider extends FabricRecipeProvider {
 
         // --- Custom Recipes ---
 
+        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, ModItems.BRONZE_BOW)
+                .pattern("BST")
+                .pattern("SBT")
+                .pattern("BST")
+                .input('S', Items.STICK)
+                .input('B', ModItems.BRONZE_INGOT)
+                .input('T', Items.STRING)
+                .criterion(hasItem(ModItems.BRONZE_INGOT), conditionsFromItem(ModItems.BRONZE_INGOT))
+                .offerTo(recipeExporter, Identifier.of(MetalsPlus.MOD_ID, "bronze_bow_recipe"));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, ModItems.OSMIUM_BOW)
+                .pattern("BST")
+                .pattern("SBT")
+                .pattern("BST")
+                .input('S', Items.STICK)
+                .input('B', ModItems.OSMIUM_INGOT)
+                .input('T', Items.STRING)
+                .criterion(hasItem(ModItems.OSMIUM_INGOT), conditionsFromItem(ModItems.OSMIUM_INGOT))
+                .offerTo(recipeExporter, Identifier.of(MetalsPlus.MOD_ID, "osmium_bow_recipe"));
+
         // Osmium nugget
         ShapelessRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.OSMIUM_NUGGET, 9)
                 .input(ModItems.OSMIUM_INGOT)

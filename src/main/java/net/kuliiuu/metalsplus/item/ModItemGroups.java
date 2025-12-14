@@ -78,6 +78,10 @@ public class ModItemGroups {
                         entries.add(ModItems.OSMIUM_CHESTPLATE);
                         entries.add(ModItems.OSMIUM_LEGGINGS);
                         entries.add(ModItems.OSMIUM_BOOTS);
+
+
+                        entries.add(ModItems.BRONZE_BOW);
+                        entries.add(ModItems.OSMIUM_BOW);
                     }).build());
 
     public static final ItemGroup METAL_PLUS_BLOCKS_GROUP = Registry.register(Registries.ITEM_GROUP,

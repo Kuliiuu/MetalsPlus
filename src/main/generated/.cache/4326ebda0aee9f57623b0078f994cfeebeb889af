@@ -1,4 +1,4 @@
-// 1.21.1	2025-12-13T18:30:49.8611384	Metals Plus/Model Definitions
+// 1.21.1	2025-12-14T13:44:05.4897836	Metals Plus/Model Definitions
 b5137c00b83b9df8b179398b36a6dc50bce6ae66 assets\metalsplus\models\item\bronze_ingot.json
 f4acf28be244c29e207e50929cb9f24d936c7af9 assets\metalsplus\models\item\tin_dust.json
 bf7575ae4a4aa8939ca22dab783f409787af1d18 assets\metalsplus\models\item\copper_helmet_netherite_trim.json
@@ -63,8 +63,8 @@ ff38104891b8df8df8fe65d32dd31bab1e57ebc0 assets\metalsplus\models\item\osmium_ha
 2abee0a908734b602d4ab0357cd34ab08c03c0c2 assets\metalsplus\models\item\tin_helmet_iron_trim.json
 4f8b4e2eb21eab95f9f38bbeaf362eafbfa003fa assets\metalsplus\models\item\deepslate_osmium_ore.json
 d76b40f1127d7fbc4db12f28a9b54da554523777 assets\metalsplus\models\item\osmium_chestplate_netherite_trim.json
-cd861ac4363dd29911051c2eba705d53a0d6c2da assets\metalsplus\models\item\osmium_helmet_iron_trim.json
 f2f93ea73effd642a0bb90422f4d456a88c32c19 assets\metalsplus\models\item\tin_chestplate_lapis_trim.json
+cd861ac4363dd29911051c2eba705d53a0d6c2da assets\metalsplus\models\item\osmium_helmet_iron_trim.json
 9723ea8d1143303b57b4bf00f3b26dd2a0e3e272 assets\metalsplus\models\item\tin_chestplate_iron_trim.json
 ac442e98367f0f6345b400da34193d0521fcd60b assets\metalsplus\models\item\tin_chestplate_diamond_trim.json
 9aee5349ddda7985a1c48e153dcf7c4c8047f9e9 assets\metalsplus\models\item\copper_helmet_amethyst_trim.json
@@ -103,8 +103,8 @@ c5ab63d3dbcef9e5bd73ee7a6fed340280d4cf22 assets\metalsplus\models\item\osmium_bl
 0f7f1c4c6fe4640207ecc776ecd3e63e097e9079 assets\metalsplus\models\item\tin_boots_redstone_trim.json
 2aa3b1b84f431c76dcf619182b57a7c610c1007f assets\metalsplus\models\item\copper_axe.json
 56f7f209b199d3bca8b49f3d9651bb3183232e0d assets\metalsplus\models\item\bronze_helmet_emerald_trim.json
-f3f5fef13df87d94ee5991e907328273c0893d57 assets\metalsplus\models\item\tin_leggings_gold_trim.json
 5e0fd47b0810f7d791e18eefa07b0cf2dfae2bd3 assets\metalsplus\models\item\lignite_coal.json
+f3f5fef13df87d94ee5991e907328273c0893d57 assets\metalsplus\models\item\tin_leggings_gold_trim.json
 1196bd5e5b5ac08978e36ec0acf1f73e301c8eae assets\metalsplus\models\item\osmium_helmet_gold_trim.json
 97f7e51f620752e484b7911525395e0d09b2de5b assets\metalsplus\models\item\tin_chestplate_gold_trim.json
 b981cacd89a2ef4647c5570635c89d4058d97da8 assets\metalsplus\models\item\tin_leggings_lapis_trim.json
