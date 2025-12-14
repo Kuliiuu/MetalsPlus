@@ -69,11 +69,10 @@ Lignite Coal Related
 
 
 ## TODO
-- Add textures for all new items and blocks - DONE
-- Implement full tin tool and armor stats - DONE
-- Add bronze alloying recipe - DONE
-- Add loot tables for new items - DONE  
-- Add world generation for Tin Ore and Lignite Coal - DONE
+- Ea Nasir
+- Bows
+- Berries
+- Miner's Helmet
 
 
 ## Contributing
