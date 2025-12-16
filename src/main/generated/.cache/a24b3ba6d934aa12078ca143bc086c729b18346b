@@ -1,7 +1,7 @@
-// 1.21.1	2025-12-14T13:44:05.4887677	Metals Plus/Tags for minecraft:block
+// 1.21.1	2025-12-16T18:47:38.5469504	Metals Plus/Tags for minecraft:block
 7ea55a94842d37c52cbe92e517cc58132b75ba22 data\minecraft\tags\block\needs_stone_tool.json
-96f5715508d4e20f911a4861b0290bc30ea9eff5 data\metalsplus\tags\block\fuel_blocks.json
 9cb06124ea724896e87e22f9a68844adb8625520 data\minecraft\tags\block\needs_diamond_tool.json
+96f5715508d4e20f911a4861b0290bc30ea9eff5 data\metalsplus\tags\block\fuel_blocks.json
 781d959bb6bbea7b36ae6b2d4a71ced43fd662b9 data\metalsplus\tags\block\needs_copper_tool.json
 f38ed956a81ce74e25ff4596326a70b64917b144 data\minecraft\tags\block\mineable\pickaxe.json
 71051073742dff4df1557f9a254a73f32cd0e5f9 data\metalsplus\tags\block\needs_bronze_tool.json

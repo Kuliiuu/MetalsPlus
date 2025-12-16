@@ -1,8 +1,10 @@
 package net.kuliiuu.metalsplus.item;
 
 import net.kuliiuu.metalsplus.MetalsPlus;
+import net.kuliiuu.metalsplus.block.ModBlocks;
 import net.kuliiuu.metalsplus.item.custom.ChiselItem;
 import net.kuliiuu.metalsplus.item.custom.HammerItem;
+import net.kuliiuu.metalsplus.item.custom.ModFoodComponents;
 import net.kuliiuu.metalsplus.item.custom.ModToolMaterials;
 import net.minecraft.item.*;
 import net.minecraft.registry.Registries;
@@ -26,6 +28,13 @@ public class ModItems {
 
     public static final Item OSMIUM_BOW = registerItem("osmium_bow",
             new BowItem(new Item.Settings().maxDamage(1500)));
+
+    public static final Item BLUEBERRIES = registerItem("blueberries",
+            new AliasedBlockItem(ModBlocks.BLUEBERRY_BUSH, new Item.Settings().food(ModFoodComponents.BLUEBERRIES)));
+    public static final Item BLACKBERRIES = registerItem("blackberries",
+            new AliasedBlockItem(ModBlocks.BLACKBERRY_BUSH, new Item.Settings().food(ModFoodComponents.BLACKBERRIES)));
+    public static final Item RASPBERRIES = registerItem("raspberries",
+            new AliasedBlockItem(ModBlocks.RASPBERRY_BUSH, new Item.Settings().food(ModFoodComponents.RASPBERRIES)));
 
     public static final Item OSMIUM_INGOT = registerItem("osmium_ingot", new Item(new Item.Settings()));
     public static final Item OSMIUM_NUGGET = registerItem("osmium_nugget", new Item(new Item.Settings()));

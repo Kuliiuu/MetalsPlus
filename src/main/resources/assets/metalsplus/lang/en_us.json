@@ -80,6 +80,14 @@
   "block.metalsplus.lignite_coal_ore": "Lignite Coal Ore",
   "block.metalsplus.lignite_coal_block": "Lignite Coal Block",
 
+  "block.metalsplus.blackberry_bush": "Blackberry Bush",
+  "block.metalsplus.blueberry_bush": "Blueberry Bush",
+  "block.metalsplus.raspberry_bush": "Raspberry Bush",
+
+  "item.metalsplus.raspberries": "Raspberries",
+  "item.metalsplus.blueberries": "Blueberries",
+  "item.metalsplus.blackberries": "Blackberries",
+
   "itemgroup.metalsplus.metal_plus_items": "MetalsPlus Items",
   "itemgroup.metalsplus.metal_plus_blocks": "MetalsPlus Blocks",
 

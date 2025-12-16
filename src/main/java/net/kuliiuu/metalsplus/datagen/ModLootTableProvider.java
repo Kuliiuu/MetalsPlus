@@ -3,17 +3,26 @@ package net.kuliiuu.metalsplus.datagen;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricBlockLootTableProvider;
 import net.kuliiuu.metalsplus.block.ModBlocks;
+import net.kuliiuu.metalsplus.block.custom.BlackberryBushBlock;
+import net.kuliiuu.metalsplus.block.custom.BlueberryBushBlock;
+import net.kuliiuu.metalsplus.block.custom.RaspberryBushBlock;
 import net.kuliiuu.metalsplus.item.ModItems;
 import net.minecraft.block.Block;
+import net.minecraft.block.Blocks;
+import net.minecraft.block.SweetBerryBushBlock;
 import net.minecraft.enchantment.Enchantment;
 import net.minecraft.enchantment.Enchantments;
 import net.minecraft.item.Item;
+import net.minecraft.item.Items;
+import net.minecraft.loot.LootPool;
 import net.minecraft.loot.LootTable;
+import net.minecraft.loot.condition.BlockStatePropertyLootCondition;
 import net.minecraft.loot.entry.ItemEntry;
 import net.minecraft.loot.entry.LeafEntry;
 import net.minecraft.loot.function.ApplyBonusLootFunction;
 import net.minecraft.loot.function.SetCountLootFunction;
 import net.minecraft.loot.provider.number.UniformLootNumberProvider;
+import net.minecraft.predicate.StatePredicate;
 import net.minecraft.registry.RegistryKeys;
 import net.minecraft.registry.RegistryWrapper;
 
@@ -26,6 +35,8 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
 
     @Override
     public void generate() {
+        RegistryWrapper.Impl<Enchantment> impl = this.registryLookup.getWrapperOrThrow(RegistryKeys.ENCHANTMENT);
+
         addDrop(ModBlocks.BRONZE_BLOCK);
         addDrop(ModBlocks.TIN_BLOCK);
         addDrop(ModBlocks.LIGNITE_COAL_BLOCK);
@@ -40,7 +51,59 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
 
         addDrop(ModBlocks.LIGNITE_COAL_ORE, multipleOreDrops(ModBlocks.LIGNITE_COAL_ORE, ModItems.LIGNITE_COAL, 1, 3));
         addDrop(ModBlocks.DEEPSLATE_LIGNITE_COAL_ORE, multipleOreDrops(ModBlocks.DEEPSLATE_LIGNITE_COAL_ORE, ModItems.LIGNITE_COAL, 1, 3));
+
+        this.addDrop(ModBlocks.BLUEBERRY_BUSH,
+                block -> this.applyExplosionDecay(block, LootTable.builder()
+                        .pool(LootPool.builder().
+                                conditionally(
+                                        BlockStatePropertyLootCondition.builder(ModBlocks.BLUEBERRY_BUSH).properties(StatePredicate.Builder.create().exactMatch(BlueberryBushBlock.AGE, 3))
+                                )
+                                .with(ItemEntry.builder(ModItems.BLUEBERRIES))
+                                .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(2.0F, 3.0F)))
+                                .apply(ApplyBonusLootFunction.uniformBonusCount(impl.getOrThrow(Enchantments.FORTUNE)))
+                        ).pool(LootPool.builder()
+                                .conditionally(
+                                        BlockStatePropertyLootCondition.builder(ModBlocks.BLUEBERRY_BUSH).properties(StatePredicate.Builder.create().exactMatch(BlueberryBushBlock.AGE, 2))
+                                )
+                                .with(ItemEntry.builder(ModItems.BLUEBERRIES))
+                                .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(1.0F, 2.0F)))
+                                .apply(ApplyBonusLootFunction.uniformBonusCount(impl.getOrThrow(Enchantments.FORTUNE))))));
+
+        this.addDrop(ModBlocks.RASPBERRY_BUSH,
+                block -> this.applyExplosionDecay(block, LootTable.builder()
+                        .pool(LootPool.builder().
+                                conditionally(
+                                        BlockStatePropertyLootCondition.builder(ModBlocks.RASPBERRY_BUSH).properties(StatePredicate.Builder.create().exactMatch(RaspberryBushBlock.AGE, 3))
+                                )
+                                .with(ItemEntry.builder(ModItems.RASPBERRIES))
+                                .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(2.0F, 3.0F)))
+                                .apply(ApplyBonusLootFunction.uniformBonusCount(impl.getOrThrow(Enchantments.FORTUNE)))
+                        ).pool(LootPool.builder()
+                                .conditionally(
+                                        BlockStatePropertyLootCondition.builder(ModBlocks.RASPBERRY_BUSH).properties(StatePredicate.Builder.create().exactMatch(RaspberryBushBlock.AGE, 2))
+                                )
+                                .with(ItemEntry.builder(ModItems.RASPBERRIES))
+                                .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(1.0F, 2.0F)))
+                                .apply(ApplyBonusLootFunction.uniformBonusCount(impl.getOrThrow(Enchantments.FORTUNE))))));
+
+        this.addDrop(ModBlocks.BLACKBERRY_BUSH,
+                block -> this.applyExplosionDecay(block, LootTable.builder()
+                        .pool(LootPool.builder().
+                                conditionally(
+                                        BlockStatePropertyLootCondition.builder(ModBlocks.BLACKBERRY_BUSH).properties(StatePredicate.Builder.create().exactMatch(BlackberryBushBlock.AGE, 3))
+                                )
+                                .with(ItemEntry.builder(ModItems.BLACKBERRIES))
+                                .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(2.0F, 3.0F)))
+                                .apply(ApplyBonusLootFunction.uniformBonusCount(impl.getOrThrow(Enchantments.FORTUNE)))
+                        ).pool(LootPool.builder()
+                                .conditionally(
+                                        BlockStatePropertyLootCondition.builder(ModBlocks.BLACKBERRY_BUSH).properties(StatePredicate.Builder.create().exactMatch(BlackberryBushBlock.AGE, 2))
+                                )
+                                .with(ItemEntry.builder(ModItems.BLACKBERRIES))
+                                .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(1.0F, 2.0F)))
+                                .apply(ApplyBonusLootFunction.uniformBonusCount(impl.getOrThrow(Enchantments.FORTUNE))))));
     }
+
 
     public LootTable.Builder multipleOreDrops(Block drop, Item item, float minDrops, float maxDrops) {
         RegistryWrapper.Impl<Enchantment> impl = this.registryLookup.getWrapperOrThrow(RegistryKeys.ENCHANTMENT);

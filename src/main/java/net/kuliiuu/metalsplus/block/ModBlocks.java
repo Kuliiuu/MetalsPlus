@@ -1,9 +1,13 @@
 package net.kuliiuu.metalsplus.block;
 
 import net.kuliiuu.metalsplus.MetalsPlus;
+import net.kuliiuu.metalsplus.block.custom.BlackberryBushBlock;
+import net.kuliiuu.metalsplus.block.custom.BlueberryBushBlock;
+import net.kuliiuu.metalsplus.block.custom.RaspberryBushBlock;
 import net.kuliiuu.metalsplus.block.custom.TinBooster;
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
+import net.minecraft.block.Blocks;
 import net.minecraft.block.ExperienceDroppingBlock;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
@@ -55,7 +59,14 @@ public class ModBlocks {
                     .sounds(BlockSoundGroup.STONE)));
 
 
+    public static final Block BLACKBERRY_BUSH = registerBlockWithoutBlockItem("blackberry_bush",
+            new BlackberryBushBlock(AbstractBlock.Settings.copy(Blocks.SWEET_BERRY_BUSH)));
 
+    public static final Block RASPBERRY_BUSH = registerBlockWithoutBlockItem("raspberry_bush",
+            new RaspberryBushBlock(AbstractBlock.Settings.copy(Blocks.SWEET_BERRY_BUSH)));
+
+    public static final Block BLUEBERRY_BUSH = registerBlockWithoutBlockItem("blueberry_bush",
+            new BlueberryBushBlock(AbstractBlock.Settings.copy(Blocks.SWEET_BERRY_BUSH)));
 
     // Ores
     public static final Block DEEPSLATE_TIN_ORE = registerBlock("deepslate_tin_ore", new ExperienceDroppingBlock(
@@ -80,6 +91,10 @@ public class ModBlocks {
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);
+        return Registry.register(Registries.BLOCK, Identifier.of(MetalsPlus.MOD_ID, name), block);
+    }
+
+    private static Block registerBlockWithoutBlockItem(String name, Block block) {
         return Registry.register(Registries.BLOCK, Identifier.of(MetalsPlus.MOD_ID, name), block);
     }
 

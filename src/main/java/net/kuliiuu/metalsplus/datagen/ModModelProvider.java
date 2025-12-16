@@ -3,6 +3,9 @@ package net.kuliiuu.metalsplus.datagen;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricModelProvider;
 import net.kuliiuu.metalsplus.block.ModBlocks;
+import net.kuliiuu.metalsplus.block.custom.BlackberryBushBlock;
+import net.kuliiuu.metalsplus.block.custom.BlueberryBushBlock;
+import net.kuliiuu.metalsplus.block.custom.RaspberryBushBlock;
 import net.kuliiuu.metalsplus.item.ModItems;
 import net.minecraft.data.client.BlockStateModelGenerator;
 import net.minecraft.data.client.ItemModelGenerator;
@@ -30,6 +33,15 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.OSMIUM_ORE);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.OSMIUM_BLOCK);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.RAW_OSMIUM_BLOCK);
+
+        blockStateModelGenerator.registerTintableCrossBlockStateWithStages(ModBlocks.BLACKBERRY_BUSH, BlockStateModelGenerator.TintType.NOT_TINTED,
+                BlackberryBushBlock.AGE, 0, 1, 2, 3);
+
+        blockStateModelGenerator.registerTintableCrossBlockStateWithStages(ModBlocks.RASPBERRY_BUSH, BlockStateModelGenerator.TintType.NOT_TINTED,
+                RaspberryBushBlock.AGE, 0, 1, 2, 3);
+
+        blockStateModelGenerator.registerTintableCrossBlockStateWithStages(ModBlocks.BLUEBERRY_BUSH, BlockStateModelGenerator.TintType.NOT_TINTED,
+                BlueberryBushBlock.AGE, 0, 1, 2, 3);
     }
 
     @Override

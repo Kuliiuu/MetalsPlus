@@ -80,6 +80,13 @@
   "block.metalsplus.lignite_coal_ore": "Ložisko hnědého uhlí",
   "block.metalsplus.lignite_coal_block": "Blok hnědého uhlí",
 
+  "block.metalsplus.blackberry_bush": "Ostružinový keř",
+  "block.metalsplus.blueberry_bush": "Borůvkový keř",
+  "block.metalsplus.raspberry_bush": "Malinový keř",
+
+  "item.metalsplus.raspberries": "Maliny",
+  "item.metalsplus.blueberries": "Borůvky",
+  "item.metalsplus.blackberries": "Ostružiny",
 
   "itemgroup.metalsplus.metal_plus_items": "MetalsPlus Itemy",
   "itemgroup.metalsplus.metal_plus_blocks": "MetalsPlus Bloky",
@@ -89,5 +96,4 @@
   "tooltip.metalsplus.hammer.shift.tooltip": "Je schopen těžit 3x3 plochu.",
   "tooltip.metalsplus.chisel.shift.tooltip": "Oddělává mech z bloků a může bloky i nakřápnout.",
   "tooltip.metalsplus.chisel.tooltip": "Podrž §9[§eSHIFT§9]§r pro více informací!"
-
 }
