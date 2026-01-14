@@ -65,10 +65,30 @@
   "item.metalsplus.osmium_bow": "Osmiový luk",
   "item.metalsplus.bronze_bow": "Bronzový luk",
 
+  "item.metalsplus.adamantium_ingot": "Adamantiový ingot",
+  "item.metalsplus.adamantium_nugget": "Adamantiová nugeta",
+  "item.metalsplus.raw_adamantium": "Vytěžené adamantium",
+
+  "item.metalsplus.adamantium_helmet": "Adamantiová helma",
+  "item.metalsplus.adamantium_chestplate": "Adamantiové brnění",
+  "item.metalsplus.adamantium_leggings": "Adamantiové kalhoty",
+  "item.metalsplus.adamantium_boots": "Adamantiové boty",
+
+  "item.metalsplus.adamantium_sword": "Adamantiový meč",
+  "item.metalsplus.adamantium_axe": "Adamantiová sekera",
+  "item.metalsplus.adamantium_pickaxe": "Adamantiový krumpáč",
+  "item.metalsplus.adamantium_shovel": "Adamantiová lopata",
+  "item.metalsplus.adamantium_hoe": "Adamantiová motyka",
+
   "block.metalsplus.osmium_ore": "Osmiová ruda",
   "block.metalsplus.deepslate_osmium_ore": "Hlubinná osmiová ruda",
   "block.metalsplus.raw_osmium_block": "Blok vytěženého osmia",
   "block.metalsplus.osmium_block": "Blok osmia",
+
+  "block.metalsplus.adamantium_ore": "Adamantiová ruda",
+  "block.metalsplus.deepslate_adamantium_ore": "Hlubinná adamantiová ruda",
+  "block.metalsplus.raw_adamantium_block": "Blok vytěženého adamantia",
+  "block.metalsplus.adamantium_block": "Blok adamantia",
 
   "block.metalsplus.tin_block": "Blok cínu",
   "block.metalsplus.bronze_block": "Blok bronzu",

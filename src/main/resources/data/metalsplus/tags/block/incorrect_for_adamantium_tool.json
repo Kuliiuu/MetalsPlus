@@ -1,0 +1,8 @@
+{
+  "values": [
+    "#minecraft:incorrect_for_osmium_tool"
+  ],
+  "remove": [
+    "#metalsplus:needs_adamantium_tool"
+  ]
+}

@@ -24,6 +24,7 @@ public class ModConfiguredFeatures {
     public static final RegistryKey<ConfiguredFeature<?, ?>> TIN_ORE_KEY = registerKey("tin_ore");
     public static final RegistryKey<ConfiguredFeature<?, ?>> LIGNITE_COAL_ORE_KEY = registerKey("lignite_coal_ore");
     public static final RegistryKey<ConfiguredFeature<?, ?>> OSMIUM_ORE_KEY = registerKey("osmium_ore");
+    public static final RegistryKey<ConfiguredFeature<?, ?>> ADAMANTIUM_ORE_KEY = registerKey("adamantium_ore");
 
     public static final RegistryKey<ConfiguredFeature<?, ?>> BLUEBERRY_BUSH_KEY = registerKey("blueberry_bush");
     public static final RegistryKey<ConfiguredFeature<?, ?>> RASPBERRY_BUSH_KEY = registerKey("raspberry_bush");
@@ -45,9 +46,14 @@ public class ModConfiguredFeatures {
                 List.of(OreFeatureConfig.createTarget(stoneReplaceables, ModBlocks.OSMIUM_ORE.getDefaultState()),
                         OreFeatureConfig.createTarget(deepslateReplaceables, ModBlocks.DEEPSLATE_OSMIUM_ORE.getDefaultState()));
 
+        List<OreFeatureConfig.Target> overworldAdamantiumOres =
+                List.of(OreFeatureConfig.createTarget(stoneReplaceables, ModBlocks.ADAMANTIUM_ORE.getDefaultState()),
+                        OreFeatureConfig.createTarget(deepslateReplaceables, ModBlocks.DEEPSLATE_ADAMANTIUM_ORE.getDefaultState()));
+
         register(context, TIN_ORE_KEY, Feature.ORE, new OreFeatureConfig(overworldTinOres, 6));
         register(context, LIGNITE_COAL_ORE_KEY, Feature.ORE, new OreFeatureConfig(overworldLigniteCoalOres, 10));
         register(context, OSMIUM_ORE_KEY, Feature.ORE, new OreFeatureConfig(overworldOsmiumOres, 3));
+        register(context, ADAMANTIUM_ORE_KEY, Feature.ORE, new OreFeatureConfig(overworldAdamantiumOres, 3));
 
         register(context,BLUEBERRY_BUSH_KEY, Feature.RANDOM_PATCH,
                 ConfiguredFeatures.createRandomPatchFeatureConfig(Feature.SIMPLE_BLOCK,

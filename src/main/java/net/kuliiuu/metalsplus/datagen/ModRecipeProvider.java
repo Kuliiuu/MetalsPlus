@@ -25,22 +25,26 @@ public class ModRecipeProvider extends FabricRecipeProvider {
     @Override
     public void generate(RecipeExporter recipeExporter) {
         List<ItemConvertible> TIN_SMELTABLE = List.of(ModItems.RAW_TIN, ModBlocks.TIN_ORE, ModBlocks.DEEPSLATE_TIN_ORE);
+        List<ItemConvertible> ADAMANTIUM_SMELTABLE = List.of(ModItems.RAW_ADAMANTIUM, ModBlocks.ADAMANTIUM_ORE, ModBlocks.DEEPSLATE_ADAMANTIUM_ORE);
         List<ItemConvertible> LIGNITE_SMELTABLE = List.of(ModBlocks.LIGNITE_COAL_ORE, ModBlocks.DEEPSLATE_LIGNITE_COAL_ORE);
         List<ItemConvertible> BRONZE_SMELTABLE = List.of(ModItems.BRONZE_DUST);
         List<ItemConvertible> OSMIUM_SMELTABLE = List.of(ModItems.RAW_OSMIUM);
 
         // --- Smelting / Blasting ---
         offerSmelting(recipeExporter, TIN_SMELTABLE, RecipeCategory.MISC, ModItems.TIN_INGOT, 0.25f, 200, "tin_ingot_from_smelting");
-        offerBlasting(recipeExporter, TIN_SMELTABLE, RecipeCategory.MISC, ModItems.TIN_INGOT, 0.25f, 200, "tin_ingot_from_blasting");
+        offerBlasting(recipeExporter, TIN_SMELTABLE, RecipeCategory.MISC, ModItems.TIN_INGOT, 0.25f, 100, "tin_ingot_from_blasting");
 
         offerSmelting(recipeExporter, LIGNITE_SMELTABLE, RecipeCategory.MISC, ModItems.LIGNITE_COAL, 0.25f, 200, "lignite_from_smelting");
-        offerBlasting(recipeExporter, LIGNITE_SMELTABLE, RecipeCategory.MISC, ModItems.LIGNITE_COAL, 0.25f, 200, "lignite_from_blasting");
+        offerBlasting(recipeExporter, LIGNITE_SMELTABLE, RecipeCategory.MISC, ModItems.LIGNITE_COAL, 0.25f, 100, "lignite_from_blasting");
 
         offerSmelting(recipeExporter, BRONZE_SMELTABLE, RecipeCategory.MISC, ModItems.BRONZE_INGOT, 0.25f, 200, "bronze_ingot_from_smelting");
-        offerBlasting(recipeExporter, BRONZE_SMELTABLE, RecipeCategory.MISC, ModItems.BRONZE_INGOT, 0.25f, 200, "bronze_ingot_from_blasting");
+        offerBlasting(recipeExporter, BRONZE_SMELTABLE, RecipeCategory.MISC, ModItems.BRONZE_INGOT, 0.25f, 100, "bronze_ingot_from_blasting");
 
         offerSmelting(recipeExporter, OSMIUM_SMELTABLE, RecipeCategory.MISC, ModItems.OSMIUM_INGOT, 0.25f, 200, "osmium_ingot_from_smelting");
-        offerBlasting(recipeExporter, OSMIUM_SMELTABLE, RecipeCategory.MISC, ModItems.OSMIUM_INGOT, 0.25f, 200, "osmium_ingot_from_blasting");
+        offerBlasting(recipeExporter, OSMIUM_SMELTABLE, RecipeCategory.MISC, ModItems.OSMIUM_INGOT, 0.25f, 100, "osmium_ingot_from_blasting");
+
+        offerSmelting(recipeExporter, ADAMANTIUM_SMELTABLE, RecipeCategory.MISC, ModItems.ADAMANTIUM_INGOT, 0.25f, 400, "adamantium_ingot_from_smelting");
+        offerBlasting(recipeExporter, ADAMANTIUM_SMELTABLE, RecipeCategory.MISC, ModItems.ADAMANTIUM_INGOT, 0.25f, 200, "adamantium_ingot_from_blasting");
 
         // --- Compacting Recipes ---
         offerReversibleCompactingRecipes(recipeExporter, RecipeCategory.MISC, ModItems.TIN_INGOT, RecipeCategory.MISC, ModBlocks.TIN_BLOCK);
@@ -48,6 +52,9 @@ public class ModRecipeProvider extends FabricRecipeProvider {
 
         offerReversibleCompactingRecipes(recipeExporter, RecipeCategory.MISC, ModItems.OSMIUM_INGOT, RecipeCategory.MISC, ModBlocks.OSMIUM_BLOCK);
         offerReversibleCompactingRecipes(recipeExporter, RecipeCategory.MISC, ModItems.RAW_OSMIUM, RecipeCategory.MISC, ModBlocks.RAW_OSMIUM_BLOCK);
+
+        offerReversibleCompactingRecipes(recipeExporter, RecipeCategory.MISC, ModItems.ADAMANTIUM_INGOT, RecipeCategory.MISC, ModBlocks.ADAMANTIUM_BLOCK);
+        offerReversibleCompactingRecipes(recipeExporter, RecipeCategory.MISC, ModItems.RAW_ADAMANTIUM, RecipeCategory.MISC, ModBlocks.RAW_ADAMANTIUM_BLOCK);
 
         offerReversibleCompactingRecipes(recipeExporter, RecipeCategory.MISC, ModItems.BRONZE_INGOT, RecipeCategory.MISC, ModBlocks.BRONZE_BLOCK);
 
@@ -91,6 +98,21 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .input('N', ModItems.OSMIUM_INGOT)
                 .criterion(hasItem(ModItems.OSMIUM_INGOT), conditionsFromItem(ModItems.OSMIUM_INGOT))
                 .offerTo(recipeExporter, Identifier.of(MetalsPlus.MOD_ID, "osmium_ingot_from_nugget"));
+
+        // Adamantium nugget
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.ADAMANTIUM_NUGGET, 9)
+                .input(ModItems.ADAMANTIUM_INGOT)
+                .criterion(hasItem(ModItems.ADAMANTIUM_INGOT), conditionsFromItem(ModItems.ADAMANTIUM_INGOT))
+                .offerTo(recipeExporter, Identifier.of(MetalsPlus.MOD_ID, "adamantium_nugget_from_ingot"));
+
+        // Adamantium ingot from nugget
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.ADAMANTIUM_INGOT)
+                .pattern("NNN")
+                .pattern("NNN")
+                .pattern("NNN")
+                .input('N', ModItems.ADAMANTIUM_INGOT)
+                .criterion(hasItem(ModItems.ADAMANTIUM_INGOT), conditionsFromItem(ModItems.ADAMANTIUM_INGOT))
+                .offerTo(recipeExporter, Identifier.of(MetalsPlus.MOD_ID, "adamantium_ingot_from_nugget"));
 
         ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.OSMIUM_SWORD)
                 .pattern(" B ")
@@ -143,6 +165,48 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(ModItems.OSMIUM_INGOT), conditionsFromItem(ModItems.OSMIUM_INGOT))
                 .offerTo(recipeExporter, Identifier.of(MetalsPlus.MOD_ID, "osmium_hammer_recipe"));
 
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.ADAMANTIUM_SWORD)
+                .pattern(" B ")
+                .pattern(" B ")
+                .pattern(" S ")
+                .input('B', ModItems.ADAMANTIUM_INGOT)
+                .input('S', Items.STICK)
+                .criterion(hasItem(ModItems.ADAMANTIUM_INGOT), conditionsFromItem(ModItems.ADAMANTIUM_INGOT))
+                .offerTo(recipeExporter, Identifier.of(MetalsPlus.MOD_ID, "adamantium_sword_recipe"));
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.ADAMANTIUM_AXE)
+                .pattern("BB ")
+                .pattern("BS ")
+                .pattern(" S ")
+                .input('B', ModItems.ADAMANTIUM_INGOT)
+                .input('S', Items.STICK)
+                .criterion(hasItem(ModItems.ADAMANTIUM_INGOT), conditionsFromItem(ModItems.ADAMANTIUM_INGOT))
+                .offerTo(recipeExporter, Identifier.of(MetalsPlus.MOD_ID, "adamantium_axe_recipe"));
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.ADAMANTIUM_PICKAXE)
+                .pattern("BBB")
+                .pattern(" S ")
+                .pattern(" S ")
+                .input('B', ModItems.ADAMANTIUM_INGOT)
+                .input('S', Items.STICK)
+                .criterion(hasItem(ModItems.ADAMANTIUM_INGOT), conditionsFromItem(ModItems.ADAMANTIUM_INGOT))
+                .offerTo(recipeExporter, Identifier.of(MetalsPlus.MOD_ID, "adamantium_pickaxe_recipe"));
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.ADAMANTIUM_SHOVEL)
+                .pattern(" B ")
+                .pattern(" S ")
+                .pattern(" S ")
+                .input('B', ModItems.ADAMANTIUM_INGOT)
+                .input('S', Items.STICK)
+                .criterion(hasItem(ModItems.ADAMANTIUM_INGOT), conditionsFromItem(ModItems.ADAMANTIUM_INGOT))
+                .offerTo(recipeExporter, Identifier.of(MetalsPlus.MOD_ID, "adamantium_shovel_recipe"));
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.ADAMANTIUM_HOE)
+                .pattern("BB ")
+                .pattern(" S ")
+                .pattern(" S ")
+                .input('B', ModItems.ADAMANTIUM_INGOT)
+                .input('S', Items.STICK)
+                .criterion(hasItem(ModItems.ADAMANTIUM_INGOT), conditionsFromItem(ModItems.ADAMANTIUM_INGOT))
+                .offerTo(recipeExporter, Identifier.of(MetalsPlus.MOD_ID, "adamantium_hoe_recipe"));
+
         ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, ModItems.OSMIUM_HELMET)
                 .pattern("BBB")
                 .pattern("B B")
@@ -171,6 +235,35 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .input('B', ModItems.OSMIUM_INGOT)
                 .criterion(hasItem(ModItems.OSMIUM_INGOT), conditionsFromItem(ModItems.OSMIUM_INGOT))
                 .offerTo(recipeExporter, Identifier.of(MetalsPlus.MOD_ID, "osmium_boots_recipe"));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, ModItems.ADAMANTIUM_HELMET)
+                .pattern("BBB")
+                .pattern("B B")
+                .pattern("   ")
+                .input('B', ModItems.ADAMANTIUM_INGOT)
+                .criterion(hasItem(ModItems.ADAMANTIUM_INGOT), conditionsFromItem(ModItems.ADAMANTIUM_INGOT))
+                .offerTo(recipeExporter, Identifier.of(MetalsPlus.MOD_ID, "adamantium_helmet_recipe"));
+        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, ModItems.ADAMANTIUM_CHESTPLATE)
+                .pattern("B B")
+                .pattern("BBB")
+                .pattern("BBB")
+                .input('B', ModItems.ADAMANTIUM_INGOT)
+                .criterion(hasItem(ModItems.ADAMANTIUM_INGOT), conditionsFromItem(ModItems.ADAMANTIUM_INGOT))
+                .offerTo(recipeExporter, Identifier.of(MetalsPlus.MOD_ID, "adamantium_chestplate_recipe"));
+        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, ModItems.ADAMANTIUM_LEGGINGS)
+                .pattern("BBB")
+                .pattern("B B")
+                .pattern("B B")
+                .input('B', ModItems.ADAMANTIUM_INGOT)
+                .criterion(hasItem(ModItems.ADAMANTIUM_INGOT), conditionsFromItem(ModItems.ADAMANTIUM_INGOT))
+                .offerTo(recipeExporter, Identifier.of(MetalsPlus.MOD_ID, "adamantium_leggings_recipe"));
+        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, ModItems.ADAMANTIUM_BOOTS)
+                .pattern("   ")
+                .pattern("B B")
+                .pattern("B B")
+                .input('B', ModItems.ADAMANTIUM_INGOT)
+                .criterion(hasItem(ModItems.ADAMANTIUM_INGOT), conditionsFromItem(ModItems.ADAMANTIUM_INGOT))
+                .offerTo(recipeExporter, Identifier.of(MetalsPlus.MOD_ID, "adamantium_boots_recipe"));
 
         // Tin Booster
         ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.TIN_BOOSTER)

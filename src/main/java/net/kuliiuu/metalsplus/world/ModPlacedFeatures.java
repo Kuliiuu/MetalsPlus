@@ -16,6 +16,7 @@ public class ModPlacedFeatures {
     public static final RegistryKey<PlacedFeature> TIN_ORE_PLACED_KEY = registerKey("tin_ore_placed");
     public static final RegistryKey<PlacedFeature> LIGNITE_COAL_ORE_PLACED_KEY = registerKey("lignite_coal_ore_placed");
     public static final RegistryKey<PlacedFeature> OSMIUM_ORE_PLACED_KEY = registerKey("osmium_ore_placed");
+    public static final RegistryKey<PlacedFeature> ADAMANTIUM_ORE_PLACED_KEY = registerKey("adamantium_ore_placed");
 
     public static final RegistryKey<PlacedFeature> RASPBERRY_BUSH_PLACED_KEY = registerKey("raspberry_bush_placed");
     public static final RegistryKey<PlacedFeature> BLUEBERRY_BUSH_PLACED_KEY = registerKey("blueberry_bush_placed");
@@ -30,6 +31,10 @@ public class ModPlacedFeatures {
         register(context, LIGNITE_COAL_ORE_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.LIGNITE_COAL_ORE_KEY),
                 ModOrePlacement.modifiersWithCount(13,
                         HeightRangePlacementModifier.trapezoid(YOffset.fixed(-20), YOffset.fixed(280))));
+        register(context, ADAMANTIUM_ORE_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.ADAMANTIUM_ORE_KEY),
+                ModOrePlacement.modifiersWithCount(5,
+                        HeightRangePlacementModifier.trapezoid(YOffset.fixed(-64), YOffset.fixed(-50))));
+
         register(context, OSMIUM_ORE_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.OSMIUM_ORE_KEY),
                 ModOrePlacement.modifiersWithCount(6,
                         HeightRangePlacementModifier.trapezoid(YOffset.fixed(-64), YOffset.fixed(-38))));

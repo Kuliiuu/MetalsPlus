@@ -19,6 +19,9 @@ public class ModTags {
         public static final TagKey<Block> NEEDS_OSMIUM_TOOL = createTag("needs_osmium_tool");
         public static final TagKey<Block> INCORRECT_FOR_OSMIUM_TOOL = createTag("incorrect_for_osmium_tool");
 
+        public static final TagKey<Block> NEEDS_ADAMANTIUM_TOOL = createTag("needs_adamantium_tool");
+        public static final TagKey<Block> INCORRECT_FOR_ADAMANTIUM_TOOL = createTag("incorrect_for_adamantium_tool");
+
         public static final TagKey<Block> FUEL_BLOCKS = createTag("fuel_blocks");
 
         private static TagKey<Block> createTag(String name) {

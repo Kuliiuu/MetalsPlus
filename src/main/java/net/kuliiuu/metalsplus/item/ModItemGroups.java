@@ -44,6 +44,10 @@ public class ModItemGroups {
                         entries.add(ModItems.OSMIUM_NUGGET);
                         entries.add(ModItems.RAW_OSMIUM);
 
+                        entries.add(ModItems.RAW_ADAMANTIUM);
+                        entries.add(ModItems.ADAMANTIUM_INGOT);
+                        entries.add(ModItems.ADAMANTIUM_NUGGET);
+
                         /* ############################
                         #            TOOLS            #
                         ############################ */
@@ -75,6 +79,12 @@ public class ModItemGroups {
                         entries.add(ModItems.OSMIUM_HOE);
                         entries.add(ModItems.OSMIUM_HAMMER);
 
+                        entries.add(ModItems.ADAMANTIUM_SWORD);
+                        entries.add(ModItems.ADAMANTIUM_AXE);
+                        entries.add(ModItems.ADAMANTIUM_PICKAXE);
+                        entries.add(ModItems.ADAMANTIUM_SHOVEL);
+                        entries.add(ModItems.ADAMANTIUM_HOE);
+
                         /* ############################
                         #            ARMOR            #
                         ############################ */
@@ -98,6 +108,11 @@ public class ModItemGroups {
                         entries.add(ModItems.OSMIUM_CHESTPLATE);
                         entries.add(ModItems.OSMIUM_LEGGINGS);
                         entries.add(ModItems.OSMIUM_BOOTS);
+
+                        entries.add(ModItems.ADAMANTIUM_HELMET);
+                        entries.add(ModItems.ADAMANTIUM_CHESTPLATE);
+                        entries.add(ModItems.ADAMANTIUM_LEGGINGS);
+                        entries.add(ModItems.ADAMANTIUM_BOOTS);
 
                         /* ###########################
                         #           CUSTOM           #
@@ -134,6 +149,11 @@ public class ModItemGroups {
                         entries.add(ModBlocks.DEEPSLATE_OSMIUM_ORE);
                         entries.add(ModBlocks.RAW_OSMIUM_BLOCK);
                         entries.add(ModBlocks.OSMIUM_BLOCK);
+
+                        entries.add(ModBlocks.ADAMANTIUM_ORE);
+                        entries.add(ModBlocks.DEEPSLATE_ADAMANTIUM_ORE);
+                        entries.add(ModBlocks.RAW_ADAMANTIUM_BLOCK);
+                        entries.add(ModBlocks.ADAMANTIUM_BLOCK);
                     }).build());
 
     public static void registerItemGroups() {

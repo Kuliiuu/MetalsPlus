@@ -191,6 +191,49 @@ public class ModItems {
             new HoeItem(ModToolMaterials.OSMIUM, new Item.Settings().attributeModifiers(HoeItem.createAttributeModifiers(ModToolMaterials.OSMIUM,0, -3))));
 
     /*
+     █████╗ ██████╗  █████╗ ███╗   ███╗ █████╗ ███╗   ██╗████████╗██╗██╗   ██╗███╗   ███╗
+    ██╔══██╗██╔══██╗██╔══██╗████╗ ████║██╔══██╗████╗  ██║╚══██╔══╝██║██║   ██║████╗ ████║
+    ███████║██║  ██║███████║██╔████╔██║███████║██╔██╗ ██║   ██║   ██║██║   ██║██╔████╔██║
+    ██╔══██║██║  ██║██╔══██║██║╚██╔╝██║██╔══██║██║╚██╗██║   ██║   ██║██║   ██║██║╚██╔╝██║
+    ██║  ██║██████╔╝██║  ██║██║ ╚═╝ ██║██║  ██║██║ ╚████║   ██║   ██║╚██████╔╝██║ ╚═╝ ██║
+    ╚═╝  ╚═╝╚═════╝ ╚═╝  ╚═╝╚═╝     ╚═╝╚═╝  ╚═╝╚═╝  ╚═══╝   ╚═╝   ╚═╝ ╚═════╝ ╚═╝     ╚═╝
+    */
+
+    /* ############################
+    #            ITEMS            #
+    ############################ */
+    public static final Item ADAMANTIUM_INGOT = registerItem("adamantium_ingot", new Item(new Item.Settings()));
+    public static final Item ADAMANTIUM_NUGGET = registerItem("adamantium_nugget", new Item(new Item.Settings()));
+    public static final Item RAW_ADAMANTIUM = registerItem("raw_adamantium", new Item(new Item.Settings()));
+
+    /* ############################
+    #            ARMOR            #
+    ############################ */
+    public static final Item ADAMANTIUM_HELMET = registerAdamantiumArmor("adamantium_helmet", ArmorItem.Type.HELMET);
+    public static final Item ADAMANTIUM_CHESTPLATE = registerAdamantiumArmor("adamantium_chestplate", ArmorItem.Type.CHESTPLATE);
+    public static final Item ADAMANTIUM_LEGGINGS = registerAdamantiumArmor("adamantium_leggings", ArmorItem.Type.LEGGINGS);
+    public static final Item ADAMANTIUM_BOOTS = registerAdamantiumArmor("adamantium_boots", ArmorItem.Type.BOOTS);
+
+    /* ############################
+    #            TOOLS            #
+    ############################ */
+    public static final Item ADAMANTIUM_SWORD = registerItem("adamantium_sword",
+            new SwordItem(ModToolMaterials.ADAMANTIUM, new Item.Settings()
+                    .attributeModifiers(SwordItem.createAttributeModifiers(ModToolMaterials.ADAMANTIUM,3, -2.4f))));
+    public static final Item ADAMANTIUM_AXE = registerItem("adamantium_axe",
+            new AxeItem(ModToolMaterials.ADAMANTIUM, new Item.Settings()
+                    .attributeModifiers(AxeItem.createAttributeModifiers(ModToolMaterials.ADAMANTIUM,6, -3.2f))));
+    public static final Item ADAMANTIUM_PICKAXE = registerItem("adamantium_pickaxe",
+            new PickaxeItem(ModToolMaterials.ADAMANTIUM, new Item.Settings()
+                    .attributeModifiers(PickaxeItem.createAttributeModifiers(ModToolMaterials.ADAMANTIUM,1, -2.8f))));
+    public static final Item ADAMANTIUM_SHOVEL = registerItem("adamantium_shovel",
+            new ShovelItem(ModToolMaterials.ADAMANTIUM, new Item.Settings()
+                    .attributeModifiers(ShovelItem.createAttributeModifiers(ModToolMaterials.ADAMANTIUM,1.5f, -3f))));
+    public static final Item ADAMANTIUM_HOE = registerItem("adamantium_hoe",
+            new HoeItem(ModToolMaterials.ADAMANTIUM, new Item.Settings().attributeModifiers(HoeItem.createAttributeModifiers(ModToolMaterials.OSMIUM,0, -3))));
+
+
+    /*
     ███╗   ███╗██╗███████╗ ██████╗
     ████╗ ████║██║██╔════╝██╔════╝
     ██╔████╔██║██║███████╗██║
@@ -226,6 +269,12 @@ public class ModItems {
     private static Item registerOsmiumArmor(String name, ArmorItem.Type type) {
         return registerItem(name,
                 new ArmorItem(ModArmorMaterials.OSMIUM_ARMOR_MATERIAL, type, new Item.Settings().maxDamage(type.getMaxDamage(55)))
+        );
+    }
+
+    private static Item registerAdamantiumArmor(String name, ArmorItem.Type type) {
+        return registerItem(name,
+                new ArmorItem(ModArmorMaterials.ADAMANTIUM_ARMOR_MATERIAL, type, new Item.Settings().maxDamage(type.getMaxDamage(86)))
         );
     }
 

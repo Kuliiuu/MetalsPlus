@@ -1,9 +1,10 @@
-// 1.21.1	2026-01-02T13:59:35.7277052	Metals Plus/Tags for minecraft:block
+// 1.21.1	2026-01-14T19:13:54.0798543	Metals Plus/Tags for minecraft:block
 7ea55a94842d37c52cbe92e517cc58132b75ba22 data\minecraft\tags\block\needs_stone_tool.json
-96f5715508d4e20f911a4861b0290bc30ea9eff5 data\metalsplus\tags\block\fuel_blocks.json
 9cb06124ea724896e87e22f9a68844adb8625520 data\minecraft\tags\block\needs_diamond_tool.json
+96f5715508d4e20f911a4861b0290bc30ea9eff5 data\metalsplus\tags\block\fuel_blocks.json
 781d959bb6bbea7b36ae6b2d4a71ced43fd662b9 data\metalsplus\tags\block\needs_copper_tool.json
-f38ed956a81ce74e25ff4596326a70b64917b144 data\minecraft\tags\block\mineable\pickaxe.json
+e8fe7d24554fc15b28d327c88504e5d676cd5ad8 data\metalsplus\tags\block\needs_adamantium_tool.json
+3f970afccdaefabec294eb78a00e3f7eb038d6fa data\minecraft\tags\block\mineable\pickaxe.json
 71051073742dff4df1557f9a254a73f32cd0e5f9 data\metalsplus\tags\block\needs_bronze_tool.json
 781d959bb6bbea7b36ae6b2d4a71ced43fd662b9 data\metalsplus\tags\block\needs_tin_tool.json
-a249c46329a41538f49a564e1f14338aaf1be5a0 data\metalsplus\tags\block\needs_osmium_tool.json
+ebe6c90540298459fb7452729c23c3293681a263 data\metalsplus\tags\block\needs_osmium_tool.json

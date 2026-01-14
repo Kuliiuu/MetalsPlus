@@ -65,10 +65,31 @@
   "item.metalsplus.osmium_bow": "Osmium Bow",
   "item.metalsplus.bronze_bow": "Bronze Bow",
 
+
+  "item.metalsplus.adamantium_ingot": "Adamantium Ingot",
+  "item.metalsplus.adamantium_nugget": "Adamantium Nugget",
+  "item.metalsplus.raw_adamantium": "Raw Adamantium",
+
+  "item.metalsplus.adamantium_helmet": "Adamantium Helmet",
+  "item.metalsplus.adamantium_chestplate": "Adamantium Chestplate",
+  "item.metalsplus.adamantium_leggings": "Adamantium Leggings",
+  "item.metalsplus.adamantium_boots": "Adamantium Boots",
+
+  "item.metalsplus.adamantium_sword": "Adamantium Sword",
+  "item.metalsplus.adamantium_axe": "Adamantium Axe",
+  "item.metalsplus.adamantium_pickaxe": "Adamantium Pickaxe",
+  "item.metalsplus.adamantium_shovel": "Adamantium Shovel",
+  "item.metalsplus.adamantium_hoe": "Adamantium Hoe",
+
   "block.metalsplus.osmium_ore": "Osmium Ore",
   "block.metalsplus.deepslate_osmium_ore": "Deepslate Osmium Ore",
   "block.metalsplus.raw_osmium_block": "Block of Raw Osmium",
   "block.metalsplus.osmium_block": "Block of Osmium",
+
+  "block.metalsplus.adamantium_ore": "Adamantium Ore",
+  "block.metalsplus.deepslate_adamantium_ore": "Deepslate Adamantium Ore",
+  "block.metalsplus.raw_adamantium_block": "Block of Raw Adamantium",
+  "block.metalsplus.adamantium_block": "Block of Adamantium",
 
   "block.metalsplus.tin_block": "Block of Tin",
   "block.metalsplus.bronze_block": "Block of Bronze",

@@ -34,6 +34,11 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.OSMIUM_BLOCK);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.RAW_OSMIUM_BLOCK);
 
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.DEEPSLATE_ADAMANTIUM_ORE);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.ADAMANTIUM_ORE);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.ADAMANTIUM_BLOCK);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.RAW_ADAMANTIUM_BLOCK);
+
         blockStateModelGenerator.registerTintableCrossBlockStateWithStages(ModBlocks.BLACKBERRY_BUSH, BlockStateModelGenerator.TintType.NOT_TINTED,
                 BlackberryBushBlock.AGE, 0, 1, 2, 3);
 
@@ -108,5 +113,21 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.OSMIUM_SHOVEL, Models.HANDHELD);
         itemModelGenerator.register(ModItems.OSMIUM_HOE, Models.HANDHELD);
         itemModelGenerator.register(ModItems.OSMIUM_HAMMER, Models.HANDHELD);
+
+
+        itemModelGenerator.register(ModItems.ADAMANTIUM_INGOT, Models.GENERATED);
+        itemModelGenerator.register(ModItems.ADAMANTIUM_NUGGET, Models.GENERATED);
+        itemModelGenerator.register(ModItems.RAW_ADAMANTIUM, Models.GENERATED);
+
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.ADAMANTIUM_HELMET));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.ADAMANTIUM_CHESTPLATE));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.ADAMANTIUM_LEGGINGS));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.ADAMANTIUM_BOOTS));
+
+        itemModelGenerator.register(ModItems.ADAMANTIUM_SWORD, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.ADAMANTIUM_AXE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.ADAMANTIUM_PICKAXE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.ADAMANTIUM_SHOVEL, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.ADAMANTIUM_HOE, Models.HANDHELD);
     }
 }

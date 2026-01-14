@@ -56,6 +56,17 @@ public class ModBlocks {
                     .requiresTool()
                     .sounds(BlockSoundGroup.METAL)));
 
+    public static final Block ADAMANTIUM_BLOCK = registerBlock("adamantium_block", new Block(
+            AbstractBlock.Settings.create()
+                    .strength(70f, 650f)
+                    .requiresTool()
+                    .sounds(BlockSoundGroup.METAL)));
+    public static final Block RAW_ADAMANTIUM_BLOCK = registerBlock("raw_adamantium_block", new Block(
+            AbstractBlock.Settings.create()
+                    .strength(75f, 650f)
+                    .requiresTool()
+                    .sounds(BlockSoundGroup.METAL)));
+
     public static final Block LIGNITE_COAL_BLOCK = registerBlock("lignite_coal_block", new Block(
             AbstractBlock.Settings.create()
                     .strength(3, 3)
@@ -121,6 +132,19 @@ public class ModBlocks {
             UniformIntProvider.create(2, 5),
             AbstractBlock.Settings.create()
                     .strength(45f, 600f)
+                    .requiresTool()
+                    .sounds(BlockSoundGroup.STONE)));
+
+    public static final Block DEEPSLATE_ADAMANTIUM_ORE = registerBlock("deepslate_adamantium_ore", new ExperienceDroppingBlock(
+            UniformIntProvider.create(2, 5),
+            AbstractBlock.Settings.create()
+                    .strength(45f, 650f)
+                    .requiresTool()
+                    .sounds(BlockSoundGroup.DEEPSLATE)));
+    public static final Block ADAMANTIUM_ORE = registerBlock("adamantium_ore", new ExperienceDroppingBlock(
+            UniformIntProvider.create(2, 5),
+            AbstractBlock.Settings.create()
+                    .strength(55f, 650f)
                     .requiresTool()
                     .sounds(BlockSoundGroup.STONE)));
 
