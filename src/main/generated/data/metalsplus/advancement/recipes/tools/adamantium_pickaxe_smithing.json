@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_metalsplus.adamantium_ingot": {
+      "conditions": {
+        "items": [
+          {
+            "items": "metalsplus:adamantium_ingot"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "metalsplus:adamantium_pickaxe_smithing"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_metalsplus.adamantium_ingot"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "metalsplus:adamantium_pickaxe_smithing"
+    ]
+  }
+}

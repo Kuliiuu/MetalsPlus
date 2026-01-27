@@ -160,6 +160,7 @@ public class ModItems {
     public static final Item OSMIUM_INGOT = registerItem("osmium_ingot", new Item(new Item.Settings()));
     public static final Item OSMIUM_NUGGET = registerItem("osmium_nugget", new Item(new Item.Settings()));
     public static final Item RAW_OSMIUM = registerItem("raw_osmium", new Item(new Item.Settings()));
+    public static final Item OSMIUM_UPGRADE_TEMPLATE = registerItem("osmium_upgrade_template", new Item(new Item.Settings()));
 
     /* ############################
     #            ARMOR            #
@@ -205,6 +206,7 @@ public class ModItems {
     public static final Item ADAMANTIUM_INGOT = registerItem("adamantium_ingot", new Item(new Item.Settings()));
     public static final Item ADAMANTIUM_NUGGET = registerItem("adamantium_nugget", new Item(new Item.Settings()));
     public static final Item RAW_ADAMANTIUM = registerItem("raw_adamantium", new Item(new Item.Settings()));
+    public static final Item ADAMANTIUM_UPGRADE_TEMPLATE = registerItem("adamantium_upgrade_template", new Item(new Item.Settings()));
 
     /* ############################
     #            ARMOR            #

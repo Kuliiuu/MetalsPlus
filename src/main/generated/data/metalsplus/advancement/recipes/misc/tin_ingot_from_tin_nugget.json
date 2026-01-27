@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "metalsplus:tin_ingot_from_tin_nugget"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_tin_nugget": {
+      "conditions": {
+        "items": [
+          {
+            "items": "metalsplus:tin_nugget"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_tin_nugget"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "metalsplus:tin_ingot_from_tin_nugget"
+    ]
+  }
+}

@@ -45,7 +45,6 @@
   "item.metalsplus.copper_leggings": "Měděné kalhoty",
   "item.metalsplus.copper_boots": "Měděné boty",
 
-
   "item.metalsplus.osmium_ingot": "Osmiový ingot",
   "item.metalsplus.osmium_nugget": "Osmiová nugeta",
   "item.metalsplus.raw_osmium": "Vytěžené osmium",
@@ -64,6 +63,9 @@
 
   "item.metalsplus.osmium_bow": "Osmiový luk",
   "item.metalsplus.bronze_bow": "Bronzový luk",
+
+  "item.metalsplus.adamantium_upgrade_template": "Adamantiová kovářská předloha",
+  "item.metalsplus.osmium_upgrade_template": "Osmiová kovářská předloha",
 
   "item.metalsplus.adamantium_ingot": "Adamantiový ingot",
   "item.metalsplus.adamantium_nugget": "Adamantiová nugeta",

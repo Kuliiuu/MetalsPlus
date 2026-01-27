@@ -8,15 +8,12 @@
     "D": {
       "item": "metalsplus:osmium_block"
     },
-    "N": {
-      "item": "minecraft:netherite_ingot"
-    },
     "S": {
       "item": "minecraft:stick"
     }
   },
   "pattern": [
-    "DND",
+    "DDD",
     " S ",
     " B "
   ],

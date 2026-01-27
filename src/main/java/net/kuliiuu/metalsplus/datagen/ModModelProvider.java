@@ -62,6 +62,8 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.RAW_TIN, Models.GENERATED);
         itemModelGenerator.register(ModItems.TIN_DUST, Models.GENERATED);
         itemModelGenerator.register(ModItems.TIN_INGOT, Models.GENERATED);
+        itemModelGenerator.register(ModItems.ADAMANTIUM_UPGRADE_TEMPLATE, Models.GENERATED);
+        itemModelGenerator.register(ModItems.OSMIUM_UPGRADE_TEMPLATE, Models.GENERATED);
 
         itemModelGenerator.register(ModItems.BRONZE_SWORD, Models.HANDHELD);
         itemModelGenerator.register(ModItems.BRONZE_AXE, Models.HANDHELD);

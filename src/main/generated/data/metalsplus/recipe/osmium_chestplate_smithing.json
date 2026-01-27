@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "metalsplus:osmium_ingot"
+  },
+  "base": {
+    "item": "minecraft:netherite_chestplate"
+  },
+  "result": {
+    "count": 1,
+    "id": "metalsplus:osmium_chestplate"
+  },
+  "template": {
+    "item": "metalsplus:osmium_upgrade_template"
+  }
+}

@@ -1,4 +1,4 @@
-// 1.21.1	2026-01-14T19:13:54.0749679	Metals Plus/Tags for minecraft:item
+// 1.21.1	2026-01-27T19:50:16.9499447	Metals Plus/Tags for minecraft:item
 5e3687eac19c91df524debc742e2bef1bcb11136 data\minecraft\tags\item\head_armor.json
 c7a34bfca6d8c46a0267419b44267bf4b9cc125b data\minecraft\tags\item\axes.json
 9479ce8d9d4695304fef34dd95029f7ef28d8a19 data\minecraft\tags\item\foot_armor.json
@@ -6,8 +6,8 @@ c7a34bfca6d8c46a0267419b44267bf4b9cc125b data\minecraft\tags\item\axes.json
 0ded8ac5e73957e91ada0c156b392166c9be7b6f data\minecraft\tags\item\hoes.json
 2ccc81ca7c6c26289acf37a6310270fa716e3463 data\minecraft\tags\item\trimmable_armor.json
 4272b1225d1705af42abd55a3595ef7a33ff4786 data\minecraft\tags\item\swords.json
-bf8d0a6ee4f87e62a0c4501bb0707b76550efcd3 data\minecraft\tags\item\leg_armor.json
 a145de5bf14859e9f376c59d87d6d6cfa27b3d08 data\minecraft\tags\item\enchantable\bow.json
+bf8d0a6ee4f87e62a0c4501bb0707b76550efcd3 data\minecraft\tags\item\leg_armor.json
 1234ad9f9dfe3ec47b123ad0a295b982e9c575d7 data\minecraft\tags\item\pickaxes.json
 c073894d831fa601a45fc80237d0cbea84cb2f45 data\minecraft\tags\item\chest_armor.json
 b454eed0fdcae67a61a0d3df6a1d8ca307d9992f data\minecraft\tags\item\shovels.json

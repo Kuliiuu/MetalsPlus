@@ -43,10 +43,12 @@ public class ModItemGroups {
                         entries.add(ModItems.OSMIUM_INGOT);
                         entries.add(ModItems.OSMIUM_NUGGET);
                         entries.add(ModItems.RAW_OSMIUM);
+                        entries.add(ModItems.OSMIUM_UPGRADE_TEMPLATE);
 
                         entries.add(ModItems.RAW_ADAMANTIUM);
                         entries.add(ModItems.ADAMANTIUM_INGOT);
                         entries.add(ModItems.ADAMANTIUM_NUGGET);
+                        entries.add(ModItems.ADAMANTIUM_UPGRADE_TEMPLATE);
 
                         /* ############################
                         #            TOOLS            #

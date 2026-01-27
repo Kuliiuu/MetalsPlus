@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "D": {
+      "item": "minecraft:deepslate"
+    },
+    "I": {
+      "item": "metalsplus:adamantium_ingot"
+    },
+    "U": {
+      "item": "metalsplus:osmium_upgrade_template"
+    }
+  },
+  "pattern": [
+    "DID",
+    "IUI",
+    "DID"
+  ],
+  "result": {
+    "count": 1,
+    "id": "metalsplus:adamantium_upgrade_template"
+  }
+}
