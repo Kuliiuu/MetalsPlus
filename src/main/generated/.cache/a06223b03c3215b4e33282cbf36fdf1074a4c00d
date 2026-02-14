@@ -1,9 +1,9 @@
-// 1.21.1	2026-01-27T19:50:16.9543861	Metals Plus/Block Loot Tables
+// 1.21.1	2026-02-14T11:45:12.2541185	Metals Plus/Block Loot Tables
 3968f9b7397ffb8e6ed4f18b59924e7f8270c40a data\metalsplus\loot_table\blocks\deepslate_tin_ore.json
 69c2be389631efd351e522565aad6f7e99a51b54 data\metalsplus\loot_table\blocks\tin_booster.json
 3833def3a3ebc7fc26f9cbcba979589a8c755840 data\metalsplus\loot_table\blocks\raspberry_bush.json
-9390408ec1692a5d2074c1b7b0ec24d0aaa0612e data\metalsplus\loot_table\blocks\tin_block.json
 a6fb92384f52ec97664ada2b0033cb5a47ec6e80 data\metalsplus\loot_table\blocks\raw_tin_block.json
+9390408ec1692a5d2074c1b7b0ec24d0aaa0612e data\metalsplus\loot_table\blocks\tin_block.json
 3ccfab9fea9624d4fd19282db1c8dbfb69cccfe4 data\metalsplus\loot_table\blocks\blueberry_bush.json
 06b09d1d095f72165f857de11a93e3239767b494 data\metalsplus\loot_table\blocks\adamantium_ore.json
 098a0bf4e7989981d3db53196c192bf33eeed4cb data\metalsplus\loot_table\blocks\lignite_coal_block.json
