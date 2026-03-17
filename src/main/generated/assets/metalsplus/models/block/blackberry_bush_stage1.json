@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:block/cross",
-  "textures": {
-    "cross": "metalsplus:block/blackberry_bush_stage1"
-  }
-}

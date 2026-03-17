@@ -35,7 +35,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         List<ItemConvertible> ADAMANTIUM_SMELTABLE = List.of(ModItems.RAW_ADAMANTIUM, ModBlocks.ADAMANTIUM_ORE, ModBlocks.DEEPSLATE_ADAMANTIUM_ORE);
         List<ItemConvertible> LIGNITE_SMELTABLE = List.of(ModBlocks.LIGNITE_COAL_ORE, ModBlocks.DEEPSLATE_LIGNITE_COAL_ORE);
         List<ItemConvertible> BRONZE_SMELTABLE = List.of(ModItems.BRONZE_DUST);
-        List<ItemConvertible> OSMIUM_SMELTABLE = List.of(ModItems.RAW_OSMIUM);
+        List<ItemConvertible> OSMIUM_SMELTABLE = List.of(ModItems.RAW_OSMIUM, ModBlocks.OSMIUM_ORE, ModBlocks.DEEPSLATE_OSMIUM_ORE);
 
         // Torch from lignite
         ShapedRecipeJsonBuilder.create(RecipeCategory.DECORATIONS, Items.TORCH, 3)
@@ -162,15 +162,15 @@ public class ModRecipeProvider extends FabricRecipeProvider {
 
         offerNuggetAndIngotRecipes(recipeExporter, ModItems.BRONZE_INGOT, ModItems.BRONZE_NUGGET, "bronze_ingot", "bronze_nugget");
         createDustFromIngotRecipe(recipeExporter, ModItems.BRONZE_INGOT, ModItems.BRONZE_DUST, "bronze_dust_recipe");
-        // Bronze dust from ingot
+        // Bronze dust from dusts
         ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.BRONZE_DUST)
-                .pattern("C  ")
-                .pattern("B  ")
+                .pattern("CB ")
+                .pattern("BB ")
                 .pattern("   ")
-                .input('B', ModItems.BRONZE_INGOT)
-                .input('C', Items.COBBLESTONE)
-                .criterion(hasItem(ModItems.BRONZE_INGOT), conditionsFromItem(ModItems.BRONZE_INGOT))
-                .offerTo(recipeExporter, Identifier.of(MetalsPlus.MOD_ID, "bronze_dust_from_ingot_recipe"));
+                .input('B', ModItems.COPPER_DUST)
+                .input('C', ModItems.TIN_DUST)
+                .criterion(hasItem(ModItems.COPPER_DUST), conditionsFromItem(ModItems.COPPER_DUST))
+                .offerTo(recipeExporter, Identifier.of(MetalsPlus.MOD_ID, "bronze_dust_from_candt_dusts_recipe"));
 
         // --- Smelting / Blasting ---
         offerSmelting(recipeExporter, BRONZE_SMELTABLE, RecipeCategory.MISC, ModItems.BRONZE_INGOT, 0.25f, 200, "bronze_ingot_from_smelting");
