@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "metalsplus:adamantium_ingot"
+  },
+  "base": {
+    "item": "metalsplus:osmium_hoe"
+  },
+  "result": {
+    "count": 1,
+    "id": "metalsplus:adamantium_hoe"
+  },
+  "template": {
+    "item": "metalsplus:adamantium_upgrade_template"
+  }
+}

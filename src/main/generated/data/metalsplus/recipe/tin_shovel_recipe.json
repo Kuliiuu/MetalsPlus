@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "B": {
+      "item": "metalsplus:tin_ingot"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    " B ",
+    " S ",
+    " S "
+  ],
+  "result": {
+    "count": 1,
+    "id": "metalsplus:tin_shovel"
+  }
+}

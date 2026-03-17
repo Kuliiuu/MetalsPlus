@@ -1,0 +1,24 @@
+{
+  "values": [
+    "metalsplus:bronze_helmet",
+    "metalsplus:bronze_chestplate",
+    "metalsplus:bronze_leggings",
+    "metalsplus:bronze_boots",
+    "metalsplus:tin_helmet",
+    "metalsplus:tin_chestplate",
+    "metalsplus:tin_leggings",
+    "metalsplus:tin_boots",
+    "metalsplus:copper_helmet",
+    "metalsplus:copper_chestplate",
+    "metalsplus:copper_leggings",
+    "metalsplus:copper_boots",
+    "metalsplus:adamantium_helmet",
+    "metalsplus:adamantium_chestplate",
+    "metalsplus:adamantium_leggings",
+    "metalsplus:adamantium_boots",
+    "metalsplus:osmium_helmet",
+    "metalsplus:osmium_chestplate",
+    "metalsplus:osmium_leggings",
+    "metalsplus:osmium_boots"
+  ]
+}

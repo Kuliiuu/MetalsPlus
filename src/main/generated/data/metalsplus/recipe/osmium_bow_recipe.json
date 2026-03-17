@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "B": {
+      "item": "metalsplus:osmium_ingot"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    },
+    "T": {
+      "item": "minecraft:string"
+    }
+  },
+  "pattern": [
+    "BST",
+    "SBT",
+    "BST"
+  ],
+  "result": {
+    "count": 1,
+    "id": "metalsplus:osmium_bow"
+  }
+}

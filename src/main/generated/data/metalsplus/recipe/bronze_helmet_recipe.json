@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "B": {
+      "item": "metalsplus:bronze_ingot"
+    }
+  },
+  "pattern": [
+    "BBB",
+    "B B",
+    "   "
+  ],
+  "result": {
+    "count": 1,
+    "id": "metalsplus:bronze_helmet"
+  }
+}

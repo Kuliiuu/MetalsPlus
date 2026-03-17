@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "D": {
+      "item": "minecraft:deepslate"
+    },
+    "I": {
+      "item": "metalsplus:osmium_ingot"
+    },
+    "U": {
+      "item": "minecraft:netherite_upgrade_smithing_template"
+    }
+  },
+  "pattern": [
+    "DID",
+    "IUI",
+    "DID"
+  ],
+  "result": {
+    "count": 1,
+    "id": "metalsplus:osmium_upgrade_template"
+  }
+}
